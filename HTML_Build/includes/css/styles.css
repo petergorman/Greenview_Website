@@ -1,0 +1,174 @@
+/* Scss Document */
+/* Colors */
+/* Grey eg text */
+/* Orange eg buttons */
+/* Light Grey eg nav */
+/* Green eg button */
+/* END Colors */
+/* Global */
+html, html a {
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.004);
+  font-size: 100%;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 970px !important;
+}
+
+.div-table {
+  display: table;
+  width: 100%;
+}
+
+.div-cell {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Micro ClearFix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* For IE 6/7 only */
+.cf {
+  *zoom: 1;
+}
+
+/* END CF */
+/* END Global */
+/* Fonts */
+h1 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 2.1875em;
+  font-weight: 300;
+  letter-spacing: -0.01875em;
+  color: white;
+}
+
+h2 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: 600;
+  color: #333333;
+}
+
+h3 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: 300;
+  color: #838383;
+}
+
+h4 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.4375em;
+  color: #333333;
+}
+
+p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #333333;
+}
+
+/* END Fonts */
+/* Buttons */
+.gv-btn {
+  height: 48px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: white;
+}
+.gv-btn a {
+  text-decoration: none;
+}
+
+.gv-btn-quote {
+  background-color: #f5a843;
+  border-bottom: 2px solid #d17b0b;
+}
+
+/* END Buttons */
+/* ========= Header ========== */
+header hr {
+  border: none;
+  border-bottom: 12px solid #dddddd;
+  width: 100%;
+  margin: 0px;
+}
+header .gv-logo-nav {
+  margin-top: -5px;
+}
+header img {
+  float: left;
+  margin-right: 55px;
+}
+header nav {
+  margin-top: 20px;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+  padding: 0;
+}
+header nav ul li::last-child {
+  margin-right: 0;
+}
+header button {
+  margin-top: 12px;
+}
+
+.contact-number {
+  background-color: #333333;
+  height: 2.25em;
+  margin-top: -12px;
+  padding: 0.5em 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.contact-number h3 {
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+}
+.contact-number .fa {
+  color: white;
+  font-size: 1.25em;
+  margin-right: 5px;
+}
+
+/* ========= END Header ========== */
+/* ========= Footer ========== */
+/* ========= END Footer ========== */
