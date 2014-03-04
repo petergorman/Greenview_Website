@@ -93,7 +93,7 @@ p {
 
 /* END Fonts */
 /* Buttons */
-.gv-btn {
+a.gv-btn {
   height: 48px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -104,14 +104,22 @@ p {
   font-size: 1.25em;
   font-weight: 600;
   color: white;
-}
-.gv-btn a {
+  padding-top: 10px;
   text-decoration: none;
 }
 
-.gv-btn-quote {
+a.gv-btn-quote {
+  color: white;
+  text-shadow: 0 -1px 0 #c7760b;
   background-color: #f5a843;
   border-bottom: 2px solid #d17b0b;
+}
+
+a:hover.gv-btn-quote {
+  color: white;
+  text-shadow: 0 -1px 0 #af6709;
+  background-color: #f29213;
+  border-bottom: 2px solid #af6709;
 }
 
 /* END Buttons */
@@ -130,7 +138,7 @@ header img {
   margin-right: 55px;
 }
 header nav {
-  margin-top: 20px;
+  margin-top: 35px;
 }
 header nav ul {
   list-style: none;
@@ -142,10 +150,22 @@ header nav ul li {
   margin-right: 40px;
   padding: 0;
 }
+header nav ul li h3 {
+  margin: 0;
+}
+header nav ul li a:hover {
+  display: block;
+  padding: 0.1875em;
+  box-sizing: border-box;
+  background-color: #f5a843;
+  border-bottom: 1px solid #d17b0b;
+  color: white;
+  text-decoration: none;
+}
 header nav ul li::last-child {
   margin-right: 0;
 }
-header button {
+header a.gv-btn {
   margin-top: 12px;
 }
 

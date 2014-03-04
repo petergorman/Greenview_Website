@@ -129,25 +129,29 @@ p {
 
 /* Buttons */
 
-.gv-btn {
+a.gv-btn {
 	height:48px;
 	@include border-radius(0);
 	font-family:$font-stack;
 	font-size:em(20);
 	font-weight:600;
 	color:$color-3;
-	
-	a {
-		text-decoration:none;
-	}
+	padding-top: 10px;
+	text-decoration:none;
 }
 
-.gv-btn-quote {
+a.gv-btn-quote {
+	color:$color-3;
+	@include text-shadow(0, darken($color-2, 20%));
 	background-color:$color-2;
 	border-bottom:2px solid darken($color-2, 18%);
-	
-	a:hover {
-	}
+}
+
+a:hover.gv-btn-quote {
+	color:$color-3;
+	@include text-shadow(0, darken($color-2, 25%));
+	background-color:darken($color-2, 10%);
+	border-bottom:2px solid darken($color-2, 25%);
 }
 	
 	
@@ -176,7 +180,7 @@ header {
 	
 	nav {
 		
-		margin-top:20px;
+		margin-top:35px;
 		
 		ul {
 			list-style:none;
@@ -187,15 +191,30 @@ header {
 				display:inline-block;
 				margin-right:40px;
 				padding:0;
+				
+				h3 {
+					margin:0;
+				}
+				
+				a:hover {
+					display:block;
+					padding:em(3);
+					box-sizing:border-box;
+					background-color: $color-2;
+					border-bottom:1px solid darken($color-2, 18%);
+					color:$color-3;
+					text-decoration:none;
+				}
 			}
 			
 			li::last-child {
 				margin-right:0;
 			}
 		}
+		
 	}
 	
-	button {
+	a.gv-btn {
 		margin-top:12px;
 	}
 }
