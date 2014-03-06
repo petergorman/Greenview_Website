@@ -31,8 +31,8 @@ body {
 }
 
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-	padding-left:0;
-	padding-right:0;
+	padding-left:0px;
+	padding-right:0px;
 }
 
 .wrapper {
@@ -49,7 +49,6 @@ body {
 }
 .div-cell {
 	display:table-cell;
-	text-align:center;
 	vertical-align:middle;
 }
 
@@ -109,7 +108,7 @@ h2 {
 h3 {
 	font-family:$font-stack;
 	font-size:em(18);
-	font-weight:300;
+	font-weight:400;
 	color:$color-5;
 }
 
@@ -145,6 +144,7 @@ a.gv-btn-quote {
 	@include text-shadow(0, darken($color-2, 20%));
 	background-color:$color-2;
 	border-bottom:2px solid darken($color-2, 18%);
+	-webkit-transition: background linear 150ms;
 }
 
 a:hover.gv-btn-quote {
@@ -153,7 +153,6 @@ a:hover.gv-btn-quote {
 	background-color:darken($color-2, 10%);
 	border-bottom:2px solid darken($color-2, 25%);
 }
-	
 	
 	
 /* END Buttons */
@@ -175,12 +174,13 @@ header {
 	
 	img {
 		float:left;
-		margin-right:55px;
 	}
 	
 	nav {
 		
-		margin-top:35px;
+		float:left;
+		margin-left:32px;
+		margin-top:33px;
 		
 		ul {
 			list-style:none;
@@ -189,21 +189,30 @@ header {
 			
 			li {
 				display:inline-block;
-				margin-right:40px;
-				padding:0;
+				margin-right:15px;
 				
-				h3 {
-					margin:0;
+				a {
+					display:block;
+					padding:em(5) em(15);
+					background-color: $color-3;
+					-webkit-transition: background linear 350ms;
+					
+					h3 {
+						margin:0;
+						-webkit-transition: color linear 150ms;
+					}
+					
 				}
 				
 				a:hover {
 					display:block;
-					padding:em(3);
 					box-sizing:border-box;
 					background-color: $color-2;
-					border-bottom:1px solid darken($color-2, 18%);
-					color:$color-3;
 					text-decoration:none;
+					
+					h3 {
+						color:$color-3;
+					}
 				}
 			}
 			
@@ -243,6 +252,136 @@ header {
 
 /* ========= END Header ========== */
 
+
+/* ========= Hero / Carousel ========== */
+
+.carousel {
+	margin-top:15px;
+	height:510px;
+	overflow:hidden;
+}
+
+a.gv-carousel-control {
+	background:none;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	@include text-shadow(0, ($color-4, 20%));
+	
+	i {
+		opacity: .50;
+		filter: alpha(opacity=50);
+		position: absolute;
+		top: 50%;
+		z-index: 5;
+		display: inline-block;
+	}
+}
+
+a.gv-carousel-control.left, a.gv-carousel-control.right {
+	background:none;
+}
+
+.hero-block {
+	height:510px;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.hero-unit {
+	margin-left:auto;
+	margin-right:auto;
+	height:370px;
+	
+	h1 {
+		display:table;
+		width:auto;
+		margin-bottom:em(-5);
+		padding:em(3) em(8);
+		background-color:rgba($color-4,0.2);
+	}
+	
+	p {
+		color:$color-3;
+		@include text-shadow(0, darken($color-4, 10%));
+		margin-top:em(25);
+		margin-left:em(16);
+	}
+	
+	a {
+		display:inline;
+		height:48px;
+		margin-left:em(-13);
+		padding:em(10) em(30);
+		font-family:$font-stack;
+		font-size:em(20);
+		font-weight:600;
+		color:$color-3;
+		text-decoration:none;
+
+		@include text-shadow(0, darken($color-2, 20%));
+		background-color:$color-2;
+		border-bottom:2px solid darken($color-2, 18%);
+		-webkit-transition: background linear 150ms;
+	}
+	
+	a:hover {
+		color:$color-3;
+		@include text-shadow(0, darken($color-2, 25%));
+		background-color:darken($color-2, 10%);
+		border-bottom:2px solid darken($color-2, 25%);
+	}
+}
+	
+
+/* ========= END Hero / Carousel ========== */
+
+/* ========= About Section ========== */
+
+section.about {
+	position:relative;
+	margin-top:-130px;
+	margin-bottom:50px;
+	padding-top:30px;
+	min-height:250px;
+	background-color: $color-3;
+	z-index:9000;
+	
+	hr {
+		border-color:$color-2;
+	}
+	
+	ul {
+		margin-left:0px;
+		list-style:none;
+		
+		li {
+			background:url(../../img/bullet.gif) no-repeat left top;
+			padding-left:40px;
+			margin-bottom:12px;
+			min-height:27px;
+		}
+	}
+}
+
+/* ========= END About Section ========== */
+
+
+/* ========= Basix Section J Section ========== */
+
+.work-section-wrapper {
+	
+	background-color: #f6f6f6;
+	
+}
+
+.work-section {
+	padding-top:30px;
+}
+	
+
+/* ========= END Basix Section J Section ========== */
 
 
 /* ========= Footer ========== */

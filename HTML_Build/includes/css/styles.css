@@ -13,8 +13,8 @@ html, html a {
 }
 
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .wrapper {
@@ -32,7 +32,6 @@ html, html a {
 
 .div-cell {
   display: table-cell;
-  text-align: center;
   vertical-align: middle;
 }
 
@@ -75,7 +74,7 @@ h2 {
 h3 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
-  font-weight: 300;
+  font-weight: 400;
   color: #838383;
 }
 
@@ -113,6 +112,7 @@ a.gv-btn-quote {
   text-shadow: 0 -1px 0 #c7760b;
   background-color: #f5a843;
   border-bottom: 2px solid #d17b0b;
+  -webkit-transition: background linear 150ms;
 }
 
 a:hover.gv-btn-quote {
@@ -135,10 +135,11 @@ header .gv-logo-nav {
 }
 header img {
   float: left;
-  margin-right: 55px;
 }
 header nav {
-  margin-top: 35px;
+  float: left;
+  margin-left: 32px;
+  margin-top: 33px;
 }
 header nav ul {
   list-style: none;
@@ -147,20 +148,26 @@ header nav ul {
 }
 header nav ul li {
   display: inline-block;
-  margin-right: 40px;
-  padding: 0;
+  margin-right: 15px;
 }
-header nav ul li h3 {
+header nav ul li a {
+  display: block;
+  padding: 0.3125em 0.9375em;
+  background-color: white;
+  -webkit-transition: background linear 350ms;
+}
+header nav ul li a h3 {
   margin: 0;
+  -webkit-transition: color linear 150ms;
 }
 header nav ul li a:hover {
   display: block;
-  padding: 0.1875em;
   box-sizing: border-box;
   background-color: #f5a843;
-  border-bottom: 1px solid #d17b0b;
-  color: white;
   text-decoration: none;
+}
+header nav ul li a:hover h3 {
+  color: white;
 }
 header nav ul li::last-child {
   margin-right: 0;
@@ -190,5 +197,115 @@ header a.gv-btn {
 }
 
 /* ========= END Header ========== */
+/* ========= Hero / Carousel ========== */
+.carousel {
+  margin-top: 15px;
+  height: 510px;
+  overflow: hidden;
+}
+
+a.gv-carousel-control {
+  background: none;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 -1px 0 black, 20%;
+}
+a.gv-carousel-control i {
+  opacity: .50;
+  filter: alpha(opacity=50);
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+}
+
+a.gv-carousel-control.left, a.gv-carousel-control.right {
+  background: none;
+}
+
+.hero-block {
+  height: 510px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-unit {
+  margin-left: auto;
+  margin-right: auto;
+  height: 370px;
+}
+.hero-unit h1 {
+  display: table;
+  width: auto;
+  margin-bottom: -0.3125em;
+  padding: 0.1875em 0.5em;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.hero-unit p {
+  color: white;
+  text-shadow: 0 -1px 0 black;
+  margin-top: 1.5625em;
+  margin-left: 1em;
+}
+.hero-unit a {
+  display: inline;
+  height: 48px;
+  margin-left: -0.8125em;
+  padding: 0.625em 1.875em;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #c7760b;
+  background-color: #f5a843;
+  border-bottom: 2px solid #d17b0b;
+  -webkit-transition: background linear 150ms;
+}
+.hero-unit a:hover {
+  color: white;
+  text-shadow: 0 -1px 0 #af6709;
+  background-color: #f29213;
+  border-bottom: 2px solid #af6709;
+}
+
+/* ========= END Hero / Carousel ========== */
+/* ========= About Section ========== */
+section.about {
+  position: relative;
+  margin-top: -130px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  min-height: 250px;
+  background-color: white;
+  z-index: 9000;
+}
+section.about hr {
+  border-color: #f5a843;
+}
+section.about ul {
+  margin-left: 0px;
+  list-style: none;
+}
+section.about ul li {
+  background: url(../../img/bullet.gif) no-repeat left top;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  min-height: 27px;
+}
+
+/* ========= END About Section ========== */
+/* ========= Basix Section J Section ========== */
+.work-section-wrapper {
+  background-color: #f6f6f6;
+}
+
+.work-section {
+  padding-top: 30px;
+}
+
+/* ========= END Basix Section J Section ========== */
 /* ========= Footer ========== */
 /* ========= END Footer ========== */
