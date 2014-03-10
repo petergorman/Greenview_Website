@@ -52,6 +52,41 @@ body {
 	vertical-align:middle;
 }
 
+hr {
+	margin-top:30px;
+	margin-bottom:32px;
+}
+
+.spacer10 {
+	margin-top:10px;
+	clear:both;
+}
+
+.spacer20 {
+	margin-top:20px;
+	clear:both;
+}
+
+.spacer30 {
+	margin-top:30px;
+	clear:both;
+}
+
+.spacer40 {
+	margin-top:40px;
+	clear:both;
+}
+
+.spacer50 {
+	margin-top:50px;
+	clear:both;
+}
+
+.spacer60 {
+	margin-top:60px;
+	clear:both;
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -92,7 +127,7 @@ $font-stack-serif: Helvetica, Arial, sans-serif;
 
 h1 {
 	font-family:$font-stack;
-	font-size: em(40);
+	font-size: em(50);
 	font-weight:300;
 	letter-spacing:em(-0.3);
 	color:$color-3;
@@ -105,16 +140,17 @@ h2 {
 	color:$color-1;
 }
 
-h3 {
+h3 { /*  Nav and Phone Number  */
 	font-family:$font-stack;
 	font-size:em(18);
 	font-weight:400;
 	color:$color-5;
 }
 
-h4 {
+h4 { /*  Work Titles  */
 	font-family:$font-stack;
-	font-size:em(23);
+	font-size:em(30);
+	font-weight:400;
 	color:$color-1;
 }
 
@@ -175,7 +211,21 @@ a:hover.gv-btn-more {
 
 /* ========= Header ========== */
 
+#nav {
+	position:fixed;
+	z-index: 99;
+	top: 0;
+	left: 0;
+}
+
 header {
+	
+	background-color: $color-3;
+	height:132px;
+	border-bottom:1px solid rgba($color-1,0.1);
+	-webkit-box-shadow: 0 3px 10px 0 rgba($color-1,0.1);
+	box-shadow: 0 3px 10px 0 rgba($color-1,0.1);
+	 
 	hr	{
 		border:none;
 		border-bottom:12px solid #dddddd;
@@ -209,8 +259,7 @@ header {
 				a {
 					display:block;
 					padding:em(5) em(15);
-					background-color: $color-3;
-					-webkit-transition: background linear 350ms;
+					-webkit-transition: background linear 250ms;
 					
 					h3 {
 						margin:0;
@@ -271,7 +320,7 @@ header {
 /* ========= Hero / Carousel ========== */
 
 .carousel {
-	margin-top:15px;
+	margin-top:132px;
 	height:400px;
 	overflow:hidden;
 	border-bottom:5px solid $color-2;
@@ -315,7 +364,9 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 	h1 {
 		display:table;
 		width:auto;
-		padding:em(3) em(8);
+		margin-top:0px;
+		margin-bottom:em(1);
+		padding:em(1) em(6) em(3) em(6);
 		background-color:rgba($color-4,0.2);
 	}
 	
@@ -329,48 +380,86 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 	a {
 		display:inline;
 		height:48px;
-		padding:em(10) em(30);
+		padding:em(10) em(55);
 		font-family:$font-stack;
 		font-size:em(20);
 		font-weight:600;
 		color:$color-3;
 		text-decoration:none;
 
-		@include text-shadow(0, darken($color-2, 20%));
-		background-color:$color-2;
-		border-bottom:2px solid darken($color-2, 18%);
+		@include text-shadow(0, darken($color-6, 20%));
+		background-color:$color-6;
+		border-bottom:2px solid darken($color-6, 18%);
+		border-top:1px solid rgba($color-3,0.5);
+		border-left:1px solid rgba($color-3,0.3);
+		border-right:1px solid rgba($color-3,0.3);
 		-webkit-transition: background linear 150ms;
 	}
 	
 	a:hover {
 		color:$color-3;
-		@include text-shadow(0, darken($color-2, 25%));
-		background-color:darken($color-2, 10%);
-		border-bottom:2px solid darken($color-2, 25%);
+		@include text-shadow(0, darken($color-6, 25%));
+		background-color:darken($color-6, 10%);
+		border-bottom:2px solid darken($color-6, 25%);
 	}
 }
 	
 
 /* ========= END Hero / Carousel ========== */
 
+$section-padding: 40px 0 55px 0;
+
+@mixin hr-box-mix($color,$pct) {
+	position:relative;
+	margin-top:-32px;
+	margin-bottom:32px;
+	height:8px;
+	background-color: lighten($color,$pct);
+}
+
 /* ========= About Section ========== */
 
 .about-section-wrapper {
-	background-color: #e4f1d7;
+	/* background-color: #e4f1d7; 
 	margin-bottom:50px;
-	border-bottom:5px solid $color-6;	
+	border-bottom:5px solid $color-6;	*/
 }
 
 section.about {
-	padding:30px 0 50px 0;
+	padding:$section-padding;
 	min-height:250px;
 	
 	hr {
-		border-color:lighten($color-6,50);
+		border-color:lighten($color-6,20%);
 	}
 	
+	.hr-box {
+		@include hr-box-mix($color-6,20%);
+	}
+	
+	
 	h2 {
-		color:darken($color-6,20);
+		color:$color-1;
+		text-align:center;
+	}
+	
+	ul.images {
+		margin-left:0px;
+		margin-top:30px;
+		padding:0px;
+		list-style:none;
+		 
+		li {
+			
+			display:inline;
+			margin:0 45px 0 12px;
+			padding:0px;
+
+		}
+		
+		li:last-child {
+			margin:0;
+		}
 	}
 	
 	ul {
@@ -392,11 +481,35 @@ section.about {
 /* ========= Basix Section J Section ========== */
 
 .work-section-wrapper {
-	background-color: $color-3;
+	background-color: lighten($color-6,40%);
+	border-bottom:5px solid $color-6;
 }
 
 .work-section {
-	padding-top:30px;
+	padding:$section-padding;
+	
+	h2 {
+		color:$color-1;
+		text-align:center;
+	}
+	
+	hr {
+		border-color:lighten($color-6,20%);
+	}
+	
+	.hr-box {
+		@include hr-box-mix($color-6,20%);
+	}
+	
+	.col-xs-5 {
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	img {
+		margin-bottom:5px;
+	}
+	
 }
 	
 
@@ -404,5 +517,42 @@ section.about {
 
 
 /* ========= Footer ========== */
+
+.footer-wrapper {
+	background-color: $color-1;
+	border-bottom:10px solid darken($color-6,80%);
+}
+
+footer {
+	padding:$section-padding;
+	
+	hr {
+		border-color:lighten($color-6,20%);
+	}
+	
+	.hr-box {
+		@include hr-box-mix($color-6,20%);
+	}
+	
+	p {
+		color:$color-3;
+	}
+	
+	ul {
+		margin:0px;
+		padding:0px;
+		list-style:none;
+		
+		li {
+			display:inline-block;
+			margin-right:30px;
+			padding:0px;
+		}
+		
+	}
+	
+	
+	
+}
 
 /* ========= END Footer ========== */
