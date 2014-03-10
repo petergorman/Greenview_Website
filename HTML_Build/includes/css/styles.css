@@ -58,7 +58,7 @@ html, html a {
 /* Fonts */
 h1 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 2.1875em;
+  font-size: 2.5em;
   font-weight: 300;
   letter-spacing: -0.01875em;
   color: white;
@@ -66,8 +66,8 @@ h1 {
 
 h2 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 1.75em;
-  font-weight: 600;
+  font-size: 2.1875em;
+  font-weight: 400;
   color: #333333;
 }
 
@@ -120,6 +120,21 @@ a:hover.gv-btn-quote {
   text-shadow: 0 -1px 0 #af6709;
   background-color: #f29213;
   border-bottom: 2px solid #af6709;
+}
+
+a.gv-btn-more {
+  color: white;
+  text-shadow: 0 -1px 0 #5a8c2e;
+  background-color: #8dc858;
+  border-bottom: 2px solid #5f9431;
+  -webkit-transition: background linear 150ms;
+}
+
+a:hover.gv-btn-more {
+  color: white;
+  text-shadow: 0 -1px 0 #4e7928;
+  background-color: #73b23b;
+  border-bottom: 2px solid #4e7928;
 }
 
 /* END Buttons */
@@ -200,8 +215,9 @@ header a.gv-btn {
 /* ========= Hero / Carousel ========== */
 .carousel {
   margin-top: 15px;
-  height: 510px;
+  height: 400px;
   overflow: hidden;
+  border-bottom: 5px solid #f5a843;
 }
 
 a.gv-carousel-control {
@@ -225,21 +241,21 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 }
 
 .hero-block {
-  height: 510px;
+  height: 400px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border-bottom: 2px solid white;
 }
 
 .hero-unit {
   margin-left: auto;
   margin-right: auto;
-  height: 370px;
+  height: 400px;
 }
 .hero-unit h1 {
   display: table;
   width: auto;
-  margin-bottom: -0.3125em;
   padding: 0.1875em 0.5em;
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -252,7 +268,6 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 .hero-unit a {
   display: inline;
   height: 48px;
-  margin-left: -0.8125em;
   padding: 0.625em 1.875em;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 1.25em;
@@ -273,17 +288,21 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 
 /* ========= END Hero / Carousel ========== */
 /* ========= About Section ========== */
-section.about {
-  position: relative;
-  margin-top: -130px;
+.about-section-wrapper {
+  background-color: #e4f1d7;
   margin-bottom: 50px;
-  padding-top: 30px;
+  border-bottom: 5px solid #8dc858;
+}
+
+section.about {
+  padding: 30px 0 50px 0;
   min-height: 250px;
-  background-color: white;
-  z-index: 9000;
 }
 section.about hr {
-  border-color: #f5a843;
+  border-color: white;
+}
+section.about h2 {
+  color: #5a8c2e;
 }
 section.about ul {
   margin-left: 0px;
@@ -299,7 +318,7 @@ section.about ul li {
 /* ========= END About Section ========== */
 /* ========= Basix Section J Section ========== */
 .work-section-wrapper {
-  background-color: #f6f6f6;
+  background-color: white;
 }
 
 .work-section {

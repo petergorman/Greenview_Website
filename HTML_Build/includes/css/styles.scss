@@ -92,7 +92,7 @@ $font-stack-serif: Helvetica, Arial, sans-serif;
 
 h1 {
 	font-family:$font-stack;
-	font-size: em(35);
+	font-size: em(40);
 	font-weight:300;
 	letter-spacing:em(-0.3);
 	color:$color-3;
@@ -100,8 +100,8 @@ h1 {
 
 h2 {
 	font-family:$font-stack;
-	font-size: em(28);
-	font-weight:600;
+	font-size: em(35);
+	font-weight:400;
 	color:$color-1;
 }
 
@@ -152,6 +152,21 @@ a:hover.gv-btn-quote {
 	@include text-shadow(0, darken($color-2, 25%));
 	background-color:darken($color-2, 10%);
 	border-bottom:2px solid darken($color-2, 25%);
+}
+
+a.gv-btn-more {
+	color:$color-3;
+	@include text-shadow(0, darken($color-6, 20%));
+	background-color:$color-6;
+	border-bottom:2px solid darken($color-6, 18%);
+	-webkit-transition: background linear 150ms;
+}
+
+a:hover.gv-btn-more {
+	color:$color-3;
+	@include text-shadow(0, darken($color-6, 25%));
+	background-color:darken($color-6, 10%);
+	border-bottom:2px solid darken($color-6, 25%);
 }
 	
 	
@@ -257,8 +272,9 @@ header {
 
 .carousel {
 	margin-top:15px;
-	height:510px;
+	height:400px;
 	overflow:hidden;
+	border-bottom:5px solid $color-2;
 }
 
 a.gv-carousel-control {
@@ -283,21 +299,22 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 }
 
 .hero-block {
-	height:510px;
+	height:400px;
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
+	
+	border-bottom:2px solid $color-3;
 }
 
 .hero-unit {
 	margin-left:auto;
 	margin-right:auto;
-	height:370px;
+	height:400px;
 	
 	h1 {
 		display:table;
 		width:auto;
-		margin-bottom:em(-5);
 		padding:em(3) em(8);
 		background-color:rgba($color-4,0.2);
 	}
@@ -312,7 +329,6 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 	a {
 		display:inline;
 		height:48px;
-		margin-left:em(-13);
 		padding:em(10) em(30);
 		font-family:$font-stack;
 		font-size:em(20);
@@ -339,17 +355,22 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 
 /* ========= About Section ========== */
 
-section.about {
-	position:relative;
-	margin-top:-130px;
+.about-section-wrapper {
+	background-color: #e4f1d7;
 	margin-bottom:50px;
-	padding-top:30px;
+	border-bottom:5px solid $color-6;	
+}
+
+section.about {
+	padding:30px 0 50px 0;
 	min-height:250px;
-	background-color: $color-3;
-	z-index:9000;
 	
 	hr {
-		border-color:$color-2;
+		border-color:lighten($color-6,50);
+	}
+	
+	h2 {
+		color:darken($color-6,20);
 	}
 	
 	ul {
@@ -371,9 +392,7 @@ section.about {
 /* ========= Basix Section J Section ========== */
 
 .work-section-wrapper {
-	
-	background-color: #f6f6f6;
-	
+	background-color: $color-3;
 }
 
 .work-section {
