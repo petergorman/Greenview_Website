@@ -228,7 +228,7 @@ header {
 	 
 	hr	{
 		border:none;
-		border-bottom:12px solid #dddddd;
+		border-bottom:12px solid $color-6;
 		width:100%;
 		margin:0px;
 	}
@@ -454,6 +454,7 @@ section.about {
 			display:inline;
 			margin:0 45px 0 12px;
 			padding:0px;
+			text-align:justify;
 
 		}
 		
