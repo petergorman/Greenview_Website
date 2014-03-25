@@ -6,71 +6,112 @@
 /* Green eg button */
 /* END Colors */
 /* Global */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000323}}
 html, html a {
   -webkit-font-smoothing: antialiased !important;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.004);
   font-size: 100%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000333}}
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   padding-left: 0px;
   padding-right: 0px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000338}}
 .wrapper {
   width: 100%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000342}}
 .container {
   width: 970px !important;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000346}}
 .div-table {
   display: table;
   width: 100%;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000350}}
 .div-cell {
   display: table-cell;
   vertical-align: middle;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000355}}
 hr {
   margin-top: 30px;
   margin-bottom: 32px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000360}}
 .spacer10 {
   margin-top: 10px;
   clear: both;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000365}}
 .spacer20 {
   margin-top: 20px;
   clear: both;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000370}}
 .spacer30 {
   margin-top: 30px;
   clear: both;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000375}}
 .spacer40 {
   margin-top: 40px;
   clear: both;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000380}}
 .spacer50 {
   margin-top: 50px;
   clear: both;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000385}}
 .spacer60 {
   margin-top: 60px;
   clear: both;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000390}}
+*.align-left {
+  float: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\0000394}}
+*.align-right {
+  float: right;
+}
+
+/* Form */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003114}}
+form .gv-form-control {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  width: 95%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003120}}
+form .gv-form-padding {
+  padding: 20px 12px;
+}
+
+/* END Form */
 /* Micro ClearFix */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003128}}
 .cf:before,
 .cf:after {
   content: " ";
@@ -79,11 +120,13 @@ hr {
   /* 2 */
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003134}}
 .cf:after {
   clear: both;
 }
 
 /* For IE 6/7 only */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003139}}
 .cf {
   *zoom: 1;
 }
@@ -91,6 +134,7 @@ hr {
 /* END CF */
 /* END Global */
 /* Fonts */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003153}}
 h1 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 3.125em;
@@ -99,6 +143,7 @@ h1 {
   color: white;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003161}}
 h2 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 2.1875em;
@@ -106,6 +151,7 @@ h2 {
   color: #333333;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003168}}
 h3 {
   /*  Nav and Phone Number  */
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -114,6 +160,7 @@ h3 {
   color: #838383;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003175}}
 h4 {
   /*  Work Titles  */
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -122,14 +169,37 @@ h4 {
   color: #333333;
 }
 
-p {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003182}}
+p, input, select {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 1em;
   color: #333333;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003188}}
+a {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #f5a843;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003194}}
+a:hover {
+  color: #8dc858;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003199}}
+label {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.125em;
+  color: #333333;
+}
+
 /* END Fonts */
 /* Buttons */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003210}}
 a.gv-btn {
   height: 48px;
   -webkit-border-radius: 0;
@@ -145,6 +215,7 @@ a.gv-btn {
   text-decoration: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003221}}
 a.gv-btn-quote {
   color: white;
   text-shadow: 0 -1px 0 #c7760b;
@@ -153,6 +224,7 @@ a.gv-btn-quote {
   -webkit-transition: background linear 150ms;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003229}}
 a:hover.gv-btn-quote {
   color: white;
   text-shadow: 0 -1px 0 #af6709;
@@ -160,6 +232,7 @@ a:hover.gv-btn-quote {
   border-bottom: 2px solid #af6709;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003236}}
 a.gv-btn-more {
   color: white;
   text-shadow: 0 -1px 0 #5a8c2e;
@@ -168,6 +241,7 @@ a.gv-btn-more {
   -webkit-transition: background linear 150ms;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003244}}
 a:hover.gv-btn-more {
   color: white;
   text-shadow: 0 -1px 0 #4e7928;
@@ -177,6 +251,7 @@ a:hover.gv-btn-more {
 
 /* END Buttons */
 /* ========= Header ========== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003257}}
 #nav {
   position: fixed;
   z-index: 99;
@@ -184,6 +259,7 @@ a:hover.gv-btn-more {
   left: 0;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003264}}
 header {
   background-color: white;
   height: 132px;
@@ -191,57 +267,70 @@ header {
   -webkit-box-shadow: 0 3px 10px 0 rgba(51, 51, 51, 0.1);
   box-shadow: 0 3px 10px 0 rgba(51, 51, 51, 0.1);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003272}}
 header hr {
   border: none;
   border-bottom: 12px solid #8dc858;
   width: 100%;
   margin: 0px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003279}}
 header .gv-logo-nav {
   margin-top: -5px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003283}}
 header img {
   float: left;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003287}}
 header nav {
   float: left;
   margin-left: 32px;
   margin-top: 33px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003293}}
 header nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003298}}
 header nav ul li {
   display: inline-block;
   margin-right: 15px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003302}}
 header nav ul li a {
   display: block;
   padding: 0.3125em 0.9375em;
   -webkit-transition: background linear 250ms;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003307}}
 header nav ul li a h3 {
   margin: 0;
   -webkit-transition: color linear 150ms;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003314}}
 header nav ul li a:hover {
   display: block;
   box-sizing: border-box;
   background-color: #f5a843;
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003320}}
 header nav ul li a:hover h3 {
   color: white;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003326}}
 header nav ul li::last-child {
   margin-right: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003333}}
 header a.gv-btn {
   margin-top: 12px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003338}}
 .contact-number {
   background-color: #333333;
   height: 2.25em;
@@ -250,12 +339,14 @@ header a.gv-btn {
   box-sizing: border-box;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003346}}
 .contact-number h3 {
   display: inline-block;
   color: white;
   font-weight: 600;
   margin: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003353}}
 .contact-number .fa {
   color: white;
   font-size: 1.25em;
@@ -263,14 +354,21 @@ header a.gv-btn {
 }
 
 /* ========= END Header ========== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003363}}
+.top-box {
+  width: 100%;
+  height: 132px;
+}
+
 /* ========= Hero / Carousel ========== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003370}}
 .carousel {
-  margin-top: 132px;
   height: 400px;
   overflow: hidden;
   border-bottom: 5px solid #f5a843;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003376}}
 a.gv-carousel-control {
   background: none;
   font-size: 40px;
@@ -278,6 +376,7 @@ a.gv-carousel-control {
   text-align: center;
   text-shadow: 0 -1px 0 black, 20%;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003383}}
 a.gv-carousel-control i {
   opacity: .50;
   filter: alpha(opacity=50);
@@ -287,10 +386,12 @@ a.gv-carousel-control i {
   display: inline-block;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003393}}
 a.gv-carousel-control.left, a.gv-carousel-control.right {
   background: none;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003397}}
 .hero-block {
   height: 400px;
   background-size: cover;
@@ -299,11 +400,13 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
   border-bottom: 2px solid white;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003406}}
 .hero-unit {
   margin-left: auto;
   margin-right: auto;
   height: 400px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003411}}
 .hero-unit h1 {
   display: table;
   width: auto;
@@ -312,12 +415,14 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
   padding: 0.0625em 0.375em 0.1875em 0.375em;
   background-color: rgba(0, 0, 0, 0.2);
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003420}}
 .hero-unit p {
   color: white;
   text-shadow: 0 -1px 0 black;
   margin-top: 1.5625em;
   margin-left: 1em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003427}}
 .hero-unit a {
   display: inline;
   height: 48px;
@@ -335,6 +440,7 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
   border-right: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-transition: background linear 150ms;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003446}}
 .hero-unit a:hover {
   color: white;
   text-shadow: 0 -1px 0 #4e7928;
@@ -344,19 +450,23 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 
 /* ========= END Hero / Carousel ========== */
 /* ========= About Section ========== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003469}}
 .about-section-wrapper {
   /* background-color: #e4f1d7; 
   margin-bottom:50px;
   border-bottom:5px solid $color-6;	*/
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003475}}
 section.about {
   padding: 40px 0 55px 0;
   min-height: 250px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003479}}
 section.about hr {
   border-color: #c1e1a5;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003483}}
 section.about .hr-box {
   position: relative;
   margin-top: -32px;
@@ -364,29 +474,36 @@ section.about .hr-box {
   height: 8px;
   background-color: #c1e1a5;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003488}}
 section.about h2 {
   color: #333333;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003493}}
 section.about ul.images {
   margin-left: 0px;
   margin-top: 30px;
   padding: 0px;
   list-style: none;
+  text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003500}}
 section.about ul.images li {
   display: inline;
   margin: 0 45px 0 12px;
   padding: 0px;
   text-align: justify;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003509}}
 section.about ul.images li:last-child {
   margin: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003514}}
 section.about ul {
   margin-left: 0px;
   list-style: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003518}}
 section.about ul li {
   background: url(../../img/bullet.gif) no-repeat left top;
   padding-left: 40px;
@@ -396,21 +513,34 @@ section.about ul li {
 
 /* ========= END About Section ========== */
 /* ========= Basix Section J Section ========== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003534}}
 .work-section-wrapper {
   background-color: #f6fbf1;
-  border-bottom: 5px solid #8dc858;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003538}}
 .work-section {
   padding: 40px 0 55px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003541}}
 .work-section h2 {
   color: #333333;
   text-align: center;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003546}}
 .work-section hr {
   border-color: #c1e1a5;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003550}}
+.work-section h4 {
+  background-color: #333333;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  margin-bottom: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003559}}
 .work-section .hr-box {
   position: relative;
   margin-top: -32px;
@@ -418,27 +548,84 @@ section.about ul li {
   height: 8px;
   background-color: #c1e1a5;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003563}}
 .work-section .col-xs-5 {
   padding-left: 10px;
   padding-right: 10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003568}}
 .work-section img {
   margin-bottom: 5px;
 }
 
 /* ========= END Basix Section J Section ========== */
-/* ========= Footer ========== */
-.footer-wrapper {
+/* ========= Quote Section ========== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003579}}
+.quote-section-wrapper {
   background-color: #333333;
-  border-bottom: 10px solid black;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003583}}
+.quote-section {
+  padding: 40px 0 55px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003586}}
+.quote-section h2 {
+  color: white;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003591}}
+.quote-section p {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003595}}
+.quote-section p, .quote-section label {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003599}}
+.quote-section hr.hr-div {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003603}}
+.quote-section hr {
+  border-color: #c1e1a5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003607}}
+.quote-section .hr-box {
+  position: relative;
+  margin-top: -32px;
+  margin-bottom: 32px;
+  height: 8px;
+  background-color: #c1e1a5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003611}}
+.quote-section .col-xs-5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003616}}
+.quote-section img {
+  margin-bottom: 5px;
+}
+
+/* ========= END Quote Section ========== */
+/* ========= Footer ========== */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003629}}
+.footer-wrapper {
+  border-top: 5px solid #f5a843;
+  background-color: white;
+  border-bottom: 10px solid #8dc858;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003635}}
 footer {
   padding: 40px 0 55px 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003638}}
 footer hr {
   border-color: #c1e1a5;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003642}}
 footer .hr-box {
   position: relative;
   margin-top: -32px;
@@ -446,14 +633,22 @@ footer .hr-box {
   height: 8px;
   background-color: #c1e1a5;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003646}}
 footer p {
-  color: white;
+  font-size: 0.75em;
+  color: #838383;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003650}}
+footer p a {
+  color: #838383;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003659}}
 footer ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/HTML_Build\/includes\/css\/styles\.scss}line{font-family:\00003664}}
 footer ul li {
   display: inline-block;
   margin-right: 30px;

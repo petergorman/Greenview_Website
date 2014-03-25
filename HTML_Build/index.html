@@ -9,7 +9,8 @@
 <link rel="icon" type="image/png" href="img/favicon.png" />
 
 <link rel="stylesheet" type="text/css" href="includes/css/global.css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="includes/js/scroller.js"></script>
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -23,7 +24,7 @@
 </head>
 
 <body>
-
+<a id="top"></a>
 <header id="nav" class="wrapper">
 	<hr>
 	<div class="container">
@@ -38,7 +39,7 @@
 		<div class="row">
 			<div class="col-xs-9 gv-logo-nav">
 				
-				<img src="img/gv-logo.gif" width="251" height="90" alt="Greenview Consulting"/>
+				<a href="#top"><img src="img/gv-logo.gif" width="251" height="90" alt="Greenview Consulting"/></a>
 				<nav>
 					<ul>
 						<li><a href="#" title="Basix"><h3>BASIX</h3></a></li>
@@ -51,12 +52,14 @@
 			</div> <!-- END Col -->
 			<div class="col-xs-3">
 				
-				<a href="#" class="btn gv-btn gv-btn-quote col-xs-12">Get a Quote</a>
+				<a href="#quote" class="btn gv-btn gv-btn-quote col-xs-12">Get a Quote</a>
 				
 			</div> <!-- END Col -->
  		</div> <!-- END Row -->
 	</div> <!-- END Container -->
 </header> <!-- END Wrapper -->
+
+<div class="top-box"></div>
 
 <!-- Carousel -->
 <div class="wrapper gv-carousel">
@@ -218,14 +221,14 @@ Ut enim ad minim veniam, quis nostrud.</p>
 	
 		<div class="col-xs-5 col-xs-offset-1">	
 			<h4>BASIX</h4>
-			<img src="http://placehold.it/395x250" alt="Basix" width="395" height="250" />
+			<img src="http://placehold.it/396x250" alt="Basix" width="396" height="250" />
 			<br>
 			<a href="#" class="btn gv-btn gv-btn-more col-xs-12" title="More info">Click here for BASIX</a>
 		</div> <!-- END Col -->
 		
 		<div class="col-xs-5 col-xs-offset-0">	
 			<h4>Section J</h4>
-			<img src="http://placehold.it/395x250" alt="Section J" width="395" height="250" />
+			<img src="http://placehold.it/396x250" alt="Section J" width="396" height="250" />
 			<br>
 			<a href="#" class="btn gv-btn gv-btn-more col-xs-12" title="More info">Click here for Section J</a>
 		</div> <!-- END Col -->
@@ -237,6 +240,97 @@ Ut enim ad minim veniam, quis nostrud.</p>
 </div> <!-- END Basix / Section J Section -->
 
 
+
+<!-- Quote Form -->
+<div class="wrapper quote-section-wrapper">
+<a id="quote"></a>
+<section class="container quote-section">
+
+	<div class="row">
+				
+		<div class="col-xs-12 col-xs-offset-0">
+			<h2>Get a Quote Today!</h2>
+			<hr>
+			<div class="hr-box col-xs-2 col-xs-offset-5"></div>
+		</div> <!-- END Col -->
+		
+	</div> <!-- END Row -->
+		
+	<div class="row">
+	
+		<div class="col-xs-10 col-xs-offset-1">	
+		
+		<form role="form">
+		
+			<p>Complete the form below to recieve a no-obligation quote from Greenview Consulting, or <a href="#">contact a consultant</a></p>
+			<hr class="hr-div col-xs-12">
+			
+				<div class="form-group col-xs-6">
+					<label for="exampleInputEmail2">Contact Name</label>
+					<input type="text" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter your full name">
+				</div>
+				
+				<div class="form-group col-xs-6">
+					<label for="exampleInputEmail2">Company Name</label>
+					<input type="email" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter your company name">
+				</div>
+				
+				<div class="form-group col-xs-6">
+					<label for="exampleInputEmail2">Client Name</label>
+					<input type="email" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter your client name">
+				</div>
+				
+				<div class="form-group col-xs-6">
+					<label for="exampleInputEmail2">Email address</label>
+					<input type="email" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter your email address">
+				</div>
+				
+				<div class="form-group col-xs-6">
+					<label for="exampleInputEmail2">Phone</label>
+					<input type="text" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter a contact number">
+				</div>
+				
+				<div class="cf"></div>
+				
+				<hr class="hr-div col-xs-12">
+				
+				<div class="form-group col-xs-6">
+					<label for="exampleInputEmail2">What certificate are you after?</label>
+					<select class="form-control gv-form-control">
+						<option value="" disabled selected>Select a certificate</option>
+					  	<option value="BASIX">BASIX</option>
+					  	<option value="Section J">Section J</option>
+					</select>
+				</div>
+				
+				<div class="form-group col-xs-6">
+					<label for="exampleInputEmail2">Upload plans?</label>
+					<div class="col-sm-10">
+						<button type="submit" class="btn btn-default">Browse for file</button>
+					</div>
+				</div>
+				
+				<div class="spacer40"></div>
+			
+			<a href="#" class="btn gv-btn gv-btn-quote col-xs-12" title="More info">Submit this quote</a>
+			
+		</form>
+		
+			<div class="col-xs-2 col-xs-offset-9">
+				<div class="spacer30"></div>
+				<a href="#top" class="small align-right"><i class="fa fa-caret-up"></i> Back to top </a>
+			</div> <!-- END Col -->
+		
+		</div> <!-- END Col -->
+		
+	</div> <!-- END Row -->	
+
+</section>
+
+</div> <!-- END Quote Form -->
+
+
+
 <!-- Footer -->
 <div class="wrapper footer-wrapper">
 
@@ -245,10 +339,11 @@ Ut enim ad minim veniam, quis nostrud.</p>
 	<div class="row">
 		<div class="col-xs-5 col-xs-offset-1">
 			<ul>
-				<li class="active"><a href="#" title="Home"><p>Home</p></a></li>
-				<li><a href="#" title="Basix"><p>Basix</p></a></li>
-				<li><a href="#" title="Section J"><p>Section J</p></a></li>
-				<li><a href="#" title="Contact"><p>Contact</p></a></li>
+				<li class="active"><p><a href="#" title="Home">Home</a></p></li>
+				<li><p><a href="#" title="Basix">Basix</a></p></li>
+				<li><p><a href="#" title="Section J">Section J</a></p></li>
+				<li><p><a href="#" title="About">About</a></p></li>
+				<li><p><a href="#" title="Contact">Contact</a></p></li>
 			</ul>
 		</div><!-- END Col -->
 		<div class="col-xs-3 col-xs-offset-2">
@@ -270,7 +365,6 @@ Ut enim ad minim veniam, quis nostrud.</p>
 	})
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -87,6 +87,14 @@ hr {
 	clear:both;
 }
 
+*.align-left {
+	float:left;
+}
+
+*.align-right {
+	float:right;
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -98,6 +106,23 @@ hr {
 @mixin text-shadow($blur, $color) {
   text-shadow: 0 -1px $blur $color;
 }
+
+/* Form */
+
+form {
+	
+	.gv-form-control {
+		@include border-radius(0);
+		border:none;
+		width:95%;
+	}
+	
+	.gv-form-padding {
+		padding:20px 12px;
+	}
+}
+
+/* END Form */
 
 /* Micro ClearFix */
 .cf:before,
@@ -154,9 +179,27 @@ h4 { /*  Work Titles  */
 	color:$color-1;
 }
 
-p {
+p, input, select {
 	font-family:$font-stack;
 	font-size:em(16);
+	color:$color-1;	
+}
+
+a {
+	font-family:$font-stack;
+	color:$color-2;
+	text-decoration:none;
+}
+
+a:hover {
+	color:$color-6;
+	text-decoration:none;
+}
+
+label {
+	font-family:$font-stack;
+	font-weight:300;
+	font-size:em(18);
 	color:$color-1;	
 }
 
@@ -317,10 +360,14 @@ header {
 /* ========= END Header ========== */
 
 
+.top-box {
+	width:100%;
+	height:132px;
+}
+
 /* ========= Hero / Carousel ========== */
 
 .carousel {
-	margin-top:132px;
 	height:400px;
 	overflow:hidden;
 	border-bottom:5px solid $color-2;
@@ -448,6 +495,7 @@ section.about {
 		margin-top:30px;
 		padding:0px;
 		list-style:none;
+		text-align: center;
 		 
 		li {
 			
@@ -473,7 +521,9 @@ section.about {
 			margin-bottom:12px;
 			min-height:27px;
 		}
+		
 	}
+
 }
 
 /* ========= END About Section ========== */
@@ -483,7 +533,6 @@ section.about {
 
 .work-section-wrapper {
 	background-color: lighten($color-6,40%);
-	border-bottom:5px solid $color-6;
 }
 
 .work-section {
@@ -492,6 +541,63 @@ section.about {
 	h2 {
 		color:$color-1;
 		text-align:center;
+	}
+	
+	hr {
+		border-color:lighten($color-6,20%);
+	}
+	
+	h4 {
+		background-color: $color-1;
+		padding:5px;
+		box-sizing:border-box;
+		text-align:center;
+		color:$color-3;
+		margin-bottom:2px;
+	}
+	
+	.hr-box {
+		@include hr-box-mix($color-6,20%);
+	}
+	
+	.col-xs-5 {
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	img {
+		margin-bottom:5px;
+	}
+	
+}
+	
+
+/* ========= END Basix Section J Section ========== */
+
+
+/* ========= Quote Section ========== */
+.quote-section-wrapper {
+	background-color: $color-1;
+}
+
+.quote-section {
+	padding:$section-padding;
+	
+	h2 {
+		color:$color-3;
+		text-align:center;
+	}
+	
+	p {
+		text-align:center;
+	}
+	
+	p, label {
+		color:$color-3;
+	}
+	
+	hr.hr-div {
+		border-color:rgba($color-3,0.2);
 	}
 	
 	hr {
@@ -514,14 +620,16 @@ section.about {
 }
 	
 
-/* ========= END Basix Section J Section ========== */
+/* ========= END Quote Section ========== */
+
 
 
 /* ========= Footer ========== */
 
 .footer-wrapper {
-	background-color: $color-1;
-	border-bottom:10px solid darken($color-6,80%);
+	border-top:5px solid $color-2;
+	background-color: $color-3;
+	border-bottom:10px solid $color-6;
 }
 
 footer {
@@ -536,7 +644,16 @@ footer {
 	}
 	
 	p {
-		color:$color-3;
+		font-size:em(12);
+		color:$color-5;
+		
+		a {
+			color:$color-5;
+		}
+		
+		a:hover {
+
+		}
 	}
 	
 	ul {
