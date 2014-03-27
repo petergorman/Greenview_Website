@@ -23,22 +23,37 @@ Template Name: Homepage
     
 	<?php if(get_field('hero_content')): ?>
 	
-	<?php while(has_sub_field('hero_content')): ?>
+	<?php while(has_sub_field('hero_content')): 
 	
-	<div class="item active">
+	// vars
+	$image = get_sub_field('hero_image');
+	
+	?>
+	
+	<div class="item <?php the_sub_field('first_slide'); ?>">
 		
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-9 col-xs-offset-1">
+				<div class="col-xs-6">
 				
 				<div class="div-table">
 				
 					<div class="hero-unit div-cell">
 						<?php the_sub_field('hero_message'); ?>
-						<!--<h1>Get all your BASIX needs</h1>
-						<h1>taken care of in one place</h1>
-						<p>Greenview Consulting will rock your world blah blah, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-						<p><a href="#">More info</a></p>-->
+					</div>
+					
+				</div> <!-- END Div Table -->
+							
+				</div> <!-- END Col -->
+				
+				<div class="col-xs-5 col-xs-offset-1">
+				
+				<div class="div-table">
+				
+					<div class="hero-unit div-cell">
+						
+						<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" width="<?php echo $image['width']; ?>" height="<?php echo $image['height']; ?>" />
+						
 					</div>
 					
 				</div> <!-- END Div Table -->
@@ -78,7 +93,7 @@ Template Name: Homepage
 				<div class="row">
 				
 					<div class="col-xs-12 col-xs-offset-0">
-						<h2>Title about Greenview qualifications</h2>
+						<h2><?php the_field('about_title'); ?></h2>
 						<hr>
 						<div class="hr-box col-xs-2 col-xs-offset-5"></div>
 					</div> <!-- END Col -->
@@ -88,21 +103,11 @@ Template Name: Homepage
 				<div class="row">
 					
 					<div class="col-xs-5 col-xs-offset-1">
-						<ul>
-							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-							<li>Praesent tincidunt orci in neque vehicula, blandit lobortis felis vulputate.</li>
-							<li>Vestibulum ac turpis tincidunt, porttitor tortor vitae, ultrices mi.</li>
-							<li>Donec imperdiet dui vitae risus gravida convallis.</li>
-						</ul>
+						<?php the_field('left_list'); ?>
 					</div> <!-- END Col -->
 					
 					<div class="col-xs-5 col-xs-offset-0">
-						<ul>
-							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-							<li>Praesent tincidunt orci in neque vehicula, blandit lobortis felis vulputate.</li>
-							<li>Vestibulum ac turpis tincidunt, porttitor tortor vitae, ultrices mi.</li>
-							<li>Donec imperdiet dui vitae risus gravida convallis.</li>
-						</ul>
+						<?php the_field('right_list'); ?>
 					</div> <!-- END Col -->
 					
 				</div>
@@ -110,18 +115,30 @@ Template Name: Homepage
 				<div class="row">
 					<div class="col-xs-6 col-xs-offset-3">
 						
+						<?php if(get_field('about_logos')): ?>
+						
 						<ul class="images">
-							<li><img src="img/bdav.gif" width="101" height="120" alt="Building Designers Association Victoria" /></li>
-							<li><img src="img/nationwide.gif" width="100" height="120" alt="Nationwide House Energy Rating Scheme" /></li>
-							<li><img src="img/bers.gif" width="91" height="120" alt="BERS Pro 4.2" /></li>
+						<?php while(has_sub_field('about_logos')): 
+						
+							// vars
+								$image = get_sub_field('logo_file');
+						
+						?>
+						
+							<li><img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" width="<?php echo $image['width']; ?>" height="<?php echo $image['height']; ?>" /></li>
+							
+						<?php endwhile; ?>
+						
 						</ul>
+						
+						<?php endif; ?>
 					</div> <!-- END Col -->
 					
 				</div> <!-- END Row -->
 				<div class="spacer30"></div>
 				<div class="row">
 					<div class="col-xs-6 col-xs-offset-3">
-						<a href="#" class="btn gv-btn gv-btn-more col-xs-12" title="Learn more about Greenview Consulting">Learn more about Greenview Consulting</a>
+						<a href="<?php the_field('about_button_link'); ?>" class="btn gv-btn gv-btn-more col-xs-12" title="<?php the_field('about_button_label'); ?>"><?php the_field('about_button_label'); ?></a>
 					</div><!-- END Col -->
 				</div><!-- END Row -->
 				
@@ -141,7 +158,7 @@ Template Name: Homepage
 	<div class="row">
 				
 		<div class="col-xs-12 col-xs-offset-0">
-			<h2>What Greenview Consulting do</h2>
+			<h2><?php the_field('work_title'); ?></h2>
 			<hr>
 			<div class="hr-box col-xs-2 col-xs-offset-5"></div>
 		</div> <!-- END Col -->
@@ -150,19 +167,25 @@ Template Name: Homepage
 		
 	<div class="row">
 	
-		<div class="col-xs-5 col-xs-offset-1">	
-			<h4>BASIX</h4>
-			<img src="http://placehold.it/396x250" alt="Basix" width="396" height="250" />
-			<br>
-			<a href="#" class="btn gv-btn gv-btn-more col-xs-12" title="More info">Click here for BASIX</a>
-		</div> <!-- END Col -->
+		<div class="col-xs-1"></div>						
+						
+		<?php if(get_field('work_component')): ?>
+		
+		<?php while(has_sub_field('work_component')): 		
+			// vars
+			$image = get_sub_field('component_image');
+		?>
 		
 		<div class="col-xs-5 col-xs-offset-0">	
-			<h4>Section J</h4>
-			<img src="http://placehold.it/396x250" alt="Section J" width="396" height="250" />
+			<h4><?php the_sub_field('component_title'); ?></h4>
+			<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" width="<?php echo $image['width']; ?>" height="<?php echo $image['height']; ?>" />
 			<br>
-			<a href="#" class="btn gv-btn gv-btn-more col-xs-12" title="More info">Click here for Section J</a>
+			<a href="<?php the_sub_field('component_button_link'); ?>" class="btn gv-btn gv-btn-more col-xs-12" title="<?php the_sub_field('component_button_label'); ?>"><?php the_sub_field('component_button_label'); ?></a>
 		</div> <!-- END Col -->
+		
+		<?php endwhile; ?>
+		
+		<?php endif; ?>
 		
 	</div> <!-- END Row -->	
 

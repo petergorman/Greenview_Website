@@ -414,11 +414,23 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 		background-color:rgba($color-4,0.2);
 	}
 	
-	p {
+	p, ul {
 		color:$color-3;
 		@include text-shadow(0, darken($color-4, 10%));
 		margin-top:em(25);
 		margin-left:em(16);
+	}
+	
+	ul {
+		
+		margin-left:0;
+	
+		li {
+			font-family:$font-stack;
+			font-size:em(16);
+			margin-bottom:em(4);
+			color:$color-3;	
+		}
 	}
 	
 	a {
