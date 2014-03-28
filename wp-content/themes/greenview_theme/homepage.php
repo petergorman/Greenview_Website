@@ -203,7 +203,7 @@ Template Name: Homepage
 	<div class="row">
 				
 		<div class="col-xs-12 col-xs-offset-0">
-			<h2>Get a Quote Today!</h2>
+			<h2><?php the_field('quote_title'); ?></h2>
 			<hr>
 			<div class="hr-box col-xs-2 col-xs-offset-5"></div>
 		</div> <!-- END Col -->
@@ -212,12 +212,20 @@ Template Name: Homepage
 		
 	<div class="row">
 	
-		<div class="col-xs-10 col-xs-offset-1">	
+		<div class="col-xs-10 col-xs-offset-1">
+		
+		<?php the_field('quote_content'); ?>
+		
+			<hr class="hr-div col-xs-12">
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+		the_content();
+		endwhile; else: ?>
+		<p>Sorry, no posts matched your criteria.</p>
+		<?php endif; ?>
 		
 		<form role="form">
 		
-			<p>Complete the form below to recieve a no-obligation quote from Greenview Consulting, or <a href="#">contact a consultant</a></p>
-			<hr class="hr-div col-xs-12">
+			
 			
 				<div class="form-group col-xs-6">
 					<label for="exampleInputEmail2">Contact Name</label>
