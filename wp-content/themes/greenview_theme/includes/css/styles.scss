@@ -207,7 +207,7 @@ label {
 
 /* Buttons */
 
-a.gv-btn {
+a.gv-btn, input[type="submit"].gv-btn {
 	height:48px;
 	@include border-radius(0);
 	font-family:$font-stack;
@@ -218,7 +218,7 @@ a.gv-btn {
 	text-decoration:none;
 }
 
-a.gv-btn-quote {
+a.gv-btn-quote, input[type="submit"].gv-btn-quote {
 	color:$color-3;
 	@include text-shadow(0, darken($color-2, 20%));
 	background-color:$color-2;
@@ -226,7 +226,7 @@ a.gv-btn-quote {
 	-webkit-transition: background linear 150ms;
 }
 
-a:hover.gv-btn-quote {
+a:hover.gv-btn-quote, input[type="submit"]:hover.gv-btn-quote {
 	color:$color-3;
 	@include text-shadow(0, darken($color-2, 25%));
 	background-color:darken($color-2, 10%);
@@ -624,6 +624,12 @@ section.about {
 	
 	img {
 		margin-bottom:5px;
+	}
+	
+	/* Contact Form 7 */
+	
+	.wpcf7-submit {
+		margin-top:22px;
 	}
 	
 }

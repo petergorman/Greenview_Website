@@ -223,61 +223,6 @@ Template Name: Homepage
 		<p>Sorry, no posts matched your criteria.</p>
 		<?php endif; ?>
 		
-		<form role="form">
-		
-			
-			
-				<div class="form-group col-xs-6">
-					<label for="exampleInputEmail2">Contact Name</label>
-					<input type="text" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter your full name">
-				</div>
-				
-				<div class="form-group col-xs-6">
-					<label for="exampleInputEmail2">Company Name</label>
-					<input type="email" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter your company name">
-				</div>
-				
-				<div class="form-group col-xs-6">
-					<label for="exampleInputEmail2">Client Name</label>
-					<input type="email" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter your client name">
-				</div>
-				
-				<div class="form-group col-xs-6">
-					<label for="exampleInputEmail2">Email address</label>
-					<input type="email" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter your email address">
-				</div>
-				
-				<div class="form-group col-xs-6">
-					<label for="exampleInputEmail2">Phone</label>
-					<input type="text" class="form-control gv-form-control gv-form-padding" id="exampleInputEmail2" placeholder="Please enter a contact number">
-				</div>
-				
-				<div class="cf"></div>
-				
-				<hr class="hr-div col-xs-12">
-				
-				<div class="form-group col-xs-6">
-					<label for="exampleInputEmail2">What certificate are you after?</label>
-					<select class="form-control gv-form-control">
-						<option value="" disabled selected>Select a certificate</option>
-					  	<option value="BASIX">BASIX</option>
-					  	<option value="Section J">Section J</option>
-					</select>
-				</div>
-				
-				<div class="form-group col-xs-6">
-					<label for="exampleInputEmail2">Upload plans?</label>
-					<div class="col-sm-10">
-						<button type="submit" class="btn btn-default">Browse for file</button>
-					</div>
-				</div>
-				
-				<div class="spacer40"></div>
-			
-			<a href="#" class="btn gv-btn gv-btn-quote col-xs-12" title="More info">Submit this quote</a>
-			
-		</form>
-		
 			<div class="col-xs-2 col-xs-offset-9">
 				<div class="spacer30"></div>
 				<a href="#top" class="small align-right"><i class="fa fa-caret-up"></i> Back to top </a>
