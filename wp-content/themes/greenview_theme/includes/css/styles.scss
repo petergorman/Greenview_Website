@@ -184,6 +184,7 @@ p, input, select {
 	font-family:$font-stack;
 	font-size:em(16);
 	color:$color-1;	
+	line-height:em(28);
 }
 
 a {
@@ -324,6 +325,15 @@ header {
 			li::last-child {
 				margin-right:0;
 			}
+			
+			li.current-menu-item a {
+				display:block;
+				box-sizing:border-box;
+				background-color: $color-6;
+				text-decoration:none;
+				color:$color-3;
+			}
+				
 		}
 		
 	}
@@ -479,7 +489,7 @@ $section-padding: 40px 0 55px 0;
 .about-section-wrapper {
 	/* background-color: #e4f1d7; 
 	margin-bottom:50px;
-	border-bottom:5px solid $color-6;	*/
+	border-bottom:5px solid $color-6; */
 }
 
 section.about {
@@ -684,7 +694,6 @@ section.about {
 .footer-wrapper {
 	border-top:5px solid $color-2;
 	background-color: $color-3;
-	border-bottom:10px solid $color-6;
 }
 
 footer {
@@ -729,3 +738,36 @@ footer {
 }
 
 /* ========= END Footer ========== */
+
+
+/* ========= SubPage ========== */
+
+.sub-section-wrapper {
+	background-color: $color-3;
+}
+
+.subpage-image {
+	height:80px;
+	width:100%;
+	background-size:cover;
+	background-position:top;
+	background-repeat:no-repeat;
+	background-color: $color-3;
+	border-bottom:5px solid $color-2;
+}
+
+section.subpage {
+	
+	h1 {
+		margin-top:32px;
+		color:$color-2;
+	}
+	
+	h2 {
+		font-size:em(30);
+		color:$color-5;
+		margin-bottom:20px;
+	}
+}
+
+/* ========= END SubPage ========== */

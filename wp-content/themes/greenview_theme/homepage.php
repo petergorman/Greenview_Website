@@ -11,12 +11,6 @@ Template Name: Homepage
 <div class="wrapper gv-carousel">
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <!--<ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>-->
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner hero-block" style="background-image:url(<?php the_field('hero_bg_image'); ?>);">
@@ -190,14 +184,14 @@ Template Name: Homepage
 	</div> <!-- END Row -->	
 
 </section>
-
+<a id="quote"></a>
 </div> <!-- END Basix / Section J Section -->
 
 
 
 <!-- Quote Form -->
 <div class="wrapper quote-section-wrapper">
-<a id="quote"></a>
+
 <section class="container quote-section">
 
 	<div class="row">
