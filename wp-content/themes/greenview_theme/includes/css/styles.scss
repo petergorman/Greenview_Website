@@ -382,19 +382,26 @@ header {
 }
 
 a.gv-carousel-control {
-	background:none;
-	font-size: 40px;
-	color: #fff;
-	text-align: center;
-	@include text-shadow(0, ($color-4, 20%));
 	
 	i {
 		opacity: .50;
 		filter: alpha(opacity=50);
 		position: absolute;
-		top: 50%;
+		top: 45%;
 		z-index: 5;
 		display: inline-block;
+		border:none;
+	}
+	
+	img {
+		opacity: .60;
+		filter: alpha(opacity=60);
+		position: absolute;
+		width:15px;
+		height:49px;
+		position: absolute;
+		top: 45%;
+		z-index: 5;
 	}
 }
 
@@ -468,6 +475,10 @@ a.gv-carousel-control.left, a.gv-carousel-control.right {
 		@include text-shadow(0, darken($color-6, 25%));
 		background-color:darken($color-6, 10%);
 		border-bottom:2px solid darken($color-6, 25%);
+	}
+	
+	img {
+		margin-left:10px;
 	}
 }
 	

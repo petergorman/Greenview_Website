@@ -40,7 +40,7 @@ Template Name: Homepage
 							
 				</div> <!-- END Col -->
 				
-				<div class="col-xs-5 col-xs-offset-1">
+				<div class="col-xs-6">
 				
 				<div class="div-table">
 				
@@ -67,10 +67,10 @@ Template Name: Homepage
 
   <!-- Controls -->
   <a class="left carousel-control gv-carousel-control" href="#carousel-example-generic" data-slide="prev">
-    <i class="fa fa-angle-left"></i>
+    <!--<i class="fa fa-angle-left"></i>--><img src="<?php bloginfo('template_directory');?>/img/left-arrow.png" width="15" height="49" alt="Left" />
   </a>
   <a class="right carousel-control gv-carousel-control" href="#carousel-example-generic" data-slide="next">
-    <i class="fa fa-angle-right"></i>
+    <!--<i class="fa fa-angle-right"></i>--><img src="<?php bloginfo('template_directory');?>/img/right-arrow.png" width="15" height="49" alt="Right" />
   </a>
 </div>
 
