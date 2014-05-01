@@ -1,0 +1,174 @@
+/* Scss Document */
+/* Colors */
+/* Grey eg text */
+/* Orange eg buttons */
+/* Light Grey eg nav */
+/* Green eg button */
+/* Validation Red */
+/* END Colors */
+/* Global */
+html, html a {
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.004);
+  font-size: 100%;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 970px !important;
+}
+
+.div-table {
+  display: table;
+  width: 100%;
+}
+
+.div-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
+
+.spacer10 {
+  margin-top: 10px;
+  clear: both;
+}
+
+.spacer20 {
+  margin-top: 20px;
+  clear: both;
+}
+
+.spacer30 {
+  margin-top: 30px;
+  clear: both;
+}
+
+.spacer40 {
+  margin-top: 40px;
+  clear: both;
+}
+
+.spacer50 {
+  margin-top: 50px;
+  clear: both;
+}
+
+.spacer60 {
+  margin-top: 60px;
+  clear: both;
+}
+
+*.align-left {
+  float: left;
+}
+
+*.align-right {
+  float: right;
+}
+
+/* Form */
+form .gv-form-control {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  width: 95%;
+}
+form .gv-form-padding {
+  padding: 20px 12px;
+}
+
+/* END Form */
+/* Micro ClearFix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* For IE 6/7 only */
+.cf {
+  *zoom: 1;
+}
+
+/* END CF */
+/* END Global */
+/* Fonts */
+h1 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 3.125em;
+  font-weight: 300;
+  letter-spacing: -0.01875em;
+  color: #333333;
+}
+
+h2 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 2.1875em;
+  font-weight: 400;
+  color: #333333;
+}
+
+h3 {
+  /*  Nav and Phone Number  */
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: 400;
+  color: #838383;
+}
+
+h4 {
+  /*  Work Titles  */
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.875em;
+  font-weight: 400;
+  color: #333333;
+}
+
+p, input, select {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #333333;
+  line-height: 1.1875em;
+}
+
+a {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #f5a843;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8dc858;
+  text-decoration: none;
+}
+
+label {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.125em;
+  color: #333333;
+}
+
+/* END Fonts */

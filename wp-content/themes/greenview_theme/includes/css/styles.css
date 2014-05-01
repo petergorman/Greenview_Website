@@ -86,7 +86,7 @@ h3 { /*  Nav and Phone Number  */ font-family: "Open Sans", Helvetica, Arial, sa
 h4 { /*  Work Titles  */ font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1.875em; font-weight: 400; color: #333333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003183}}
-p, input, select { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1em; color: #333333; line-height: 1.75em; }
+p, input, select { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1em; color: #333333; line-height: 1.5em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003190}}
 a { font-family: "Open Sans", Helvetica, Arial, sans-serif; color: #f5a843; text-decoration: none; }
@@ -291,13 +291,17 @@ footer ul li { display: inline-block; margin-right: 25px; padding: 0px; }
 /* ========= SubPage ========== */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003756}}
 .sub-section-wrapper { background-color: white; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003760}}
-.subpage-image { height: 80px; width: 100%; background-size: cover; background-position: top; background-repeat: no-repeat; background-color: white; border-bottom: 5px solid #f5a843; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003759}}
+.sub-section-wrapper h1 { position: absolute; color: white; display: table; margin-top: 32px; width: auto; margin-bottom: 0.0625em; padding: 0.0625em 0.375em 0.1875em 0.375em; background-color: rgba(0, 0, 0, 0.2); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003772}}
-section.subpage h1 { margin-top: 32px; color: #f5a843; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003777}}
+.subpage-image { height: 120px; width: 100%; background-size: cover; background-position: top; background-repeat: no-repeat; background-color: white; border-bottom: 2px solid #f5a843; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003784}}
 section.subpage h2 { font-size: 1.875em; color: #838383; margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003792}}
+section.subpage .full-width-image img { display: block; margin: 15px auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003798}}
+section.subpage .subpage-row { margin-top: 10px; margin-bottom: 10px; }
 
 /* ========= END SubPage ========== */

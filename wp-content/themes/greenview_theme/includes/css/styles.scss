@@ -184,7 +184,7 @@ p, input, select {
 	font-family:$font-stack;
 	font-size:em(16);
 	color:$color-1;	
-	line-height:em(28);
+	line-height:em(24);
 }
 
 a {
@@ -755,29 +755,49 @@ footer {
 
 .sub-section-wrapper {
 	background-color: $color-3;
+	
+	h1 {
+		position:absolute;
+		color:$color-3;
+		
+		display:table;
+		margin-top:32px;
+		width:auto;
+		margin-bottom:em(1);
+		padding:em(1) em(6) em(3) em(6);
+		background-color:rgba($color-4,0.2);
+	}
 }
 
 .subpage-image {
-	height:80px;
+	height:120px;
 	width:100%;
 	background-size:cover;
 	background-position:top;
 	background-repeat:no-repeat;
 	background-color: $color-3;
-	border-bottom:5px solid $color-2;
+	border-bottom:2px solid $color-2;
 }
 
 section.subpage {
-	
-	h1 {
-		margin-top:32px;
-		color:$color-2;
-	}
 	
 	h2 {
 		font-size:em(30);
 		color:$color-5;
 		margin-bottom:20px;
+	}
+	
+	.full-width-image {
+		
+		img {
+			display:block;
+			margin:15px auto;
+		}
+	}
+	
+	.subpage-row {
+		margin-top:10px;
+		margin-bottom:10px;
 	}
 }
 

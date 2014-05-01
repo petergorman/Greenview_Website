@@ -75,3 +75,6 @@ function register_my_menu() {
   register_nav_menu('footer-menu',__( 'Footer Menu' ));
 }
 add_action( 'init', 'register_my_menu' );
+
+// Add styles to the WYSIWYG editor
+add_editor_style('includes/css/wysiwyg-style.css');
