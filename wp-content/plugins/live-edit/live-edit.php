@@ -4,7 +4,7 @@
 Plugin Name: Live Edit
 Plugin URI: http://www.elliotcondon.com/
 Description: Edit the title, content and any ACF fields from the front end of your website!
-Version: 2.1.0
+Version: 2.1.4
 Author: Elliot Condon
 Author URI: http://www.elliotcondon.com/
 License: GPL

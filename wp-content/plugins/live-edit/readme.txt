@@ -66,6 +66,18 @@ Your votes really make a difference! Thanks.
 
 == Changelog ==
 
+= 2.1.4 =
+* Security updates
+
+= 2.1.3 =
+* Fixed bug where the edit button would disappear after update
+
+= 2.1.2 =
+* Fixed bug preventing the live edit panel to close correctly
+
+= 2.1.1 =
+* Fixed JS bug preventing AJAX update on multiple saves
+
 = 2.1.0 =
 * Added support for Advanced Custom Fields version 5
 * Refreshed UI

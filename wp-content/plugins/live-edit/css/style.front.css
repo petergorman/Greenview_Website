@@ -52,15 +52,19 @@ html.live-edit-active body {
 
 #live-edit-panel {
 	width: 0px;
-	
+	overflow: hidden;
 	position: fixed;
 	top: 0;
 	left: 0;
 	bottom: 0;
 	background: #fff;
 	z-index: 99998;
-	overflow: hidden;
 }
+
+html.live-edit-active #live-edit-panel {
+	overflow: visible;
+}
+
 
 #live-edit-iframe-cover {
 	position: absolute;
@@ -81,22 +85,21 @@ html.live-edit-active body {
 	max-width: inherit;
 	height: 100%;
 	z-index: 1;
-	box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2) inset;
 	background: #fff;
 	overflow: auto;
 	border: 0 none;
-	border-right: #363B3F solid 2px;
+	border-right: #777777 solid 1px;
 }
 
 
 #live-edit-panel .ui-resizable-handle { position: absolute;font-size: 0.1px; z-index: 99999; display: block;}
 #live-edit-panel .ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; cursor: default; }
 #live-edit-panel .ui-resizable-e { 
-	width: 2px;
+	width: 7px;
 	height: 100%;
 	position: absolute;
 	top: 0;
-	right: 0px;
+	right: -3px;
 	z-index: 3;
 	
 	cursor: ew-resize !important;

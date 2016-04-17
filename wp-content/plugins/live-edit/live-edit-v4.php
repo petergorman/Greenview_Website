@@ -25,7 +25,7 @@ class live_edit {
 			
 			// basic
 			'name'			=> __('Live Edit', 'live-edit'),
-			'version'		=> '2.1.0',
+			'version'		=> '2.1.4',
 						
 			// urls
 			'basename'		=> plugin_basename( __FILE__ ),
@@ -281,7 +281,8 @@ class live_edit {
 		$o = array(
 			'ajaxurl'		=> admin_url( 'admin-ajax.php' ),
 			'panel_url'		=> admin_url( 'options-general.php?page=live-edit-panel' ),
-			'panel_width'	=> $this->settings['panel_width']
+			'panel_width'	=> $this->settings['panel_width'],
+			'nonce'			=> wp_create_nonce('live_edit_nonce')
 		);
 		
 		
@@ -311,22 +312,30 @@ class live_edit {
 	* 
 	*-------------------------------------------------------------------------------------*/
 	
-	function ajax_update_width()
-	{
-		// vars
-		$options = array(
-			'live_edit_panel_width' => 600
-		);
+	function ajax_update_width() {
 		
-		$options = array_merge($options, $_POST);
+		// vars
+		$options = wp_parse_args($_POST, array(
+			'width' 	=> 600,
+			'nonce'		=> '',
+		));
+				
+		
+		// validate
+		if( ! wp_verify_nonce($options['nonce'], 'live_edit_nonce') ) {
+		
+			wp_send_json_error();
+			
+		}
 		
 		
 		// update option
-		update_option( 'live_edit_panel_width', $options['panel_width'] );
+		update_option( 'live_edit_panel_width', $options['width'] );
 		
 		
-		echo "1";
-		die;
+		// success
+		wp_send_json_success();
+		
 	}
 	
 	
@@ -348,12 +357,12 @@ class live_edit {
 		global $acf;
 		
 		// vars
-		$options = array(
-			'fields' => false,
-			'post_id' => 0,
-		);
-		$options = array_merge($options, $_GET);
-		
+		$options = wp_parse_args($_GET, array(
+			'fields'	=> '',
+			'post_id'	=> 0,
+			'updated'	=> 0,
+			'nonce'		=> '',
+		));
 		
 		// validate
 		if( !$options['post_id'] )
@@ -364,6 +373,12 @@ class live_edit {
 		if( !$options['fields'] )
 		{
 			wp_die( "Error: No fields parameter found" );
+		}
+		
+		if( !wp_verify_nonce($options['nonce'], 'live_edit_nonce') ) {
+		
+			wp_die( "Error: Access Denied" );
+			
 		}
 		
 		
@@ -430,7 +445,7 @@ class live_edit {
 	
 	<form id="post" method="post" name="post" class="acf-form">
 		
-		<?php echo '<div class="form-title"><h2>' . __('Live Edit', 'live-edit') . '</h2><ul class="hl"><li><a href="#" class="button button-close">' . __('Close Panel', 'live-edit') . '</a></li><li><input type="submit" value="' . __('Update', 'live-edit') . '" class="button button-primary"></li></ul></div>'; ?>
+		<?php echo '<div class="form-title"><h2>' . __('Live Edit', 'live-edit') . '</h2><ul class="hl"><li><a href="#" class="button button-close">' . __('Close Panel', 'live-edit') . '</a></li><li><span class="spinner"></span><input type="submit" value="' . __('Update', 'live-edit') . '" class="button button-primary"></li></ul></div>'; ?>
 		
 	
 		<div style="display:none;">
@@ -464,10 +479,11 @@ class live_edit {
 		<script type="text/javascript">
 		(function($){
 		
-		// does parent exist?
-		if( !parent )
-		{
+		// validate parent
+		if( !parent || !parent.live_edit ) {
+		
 			return;
+			
 		}
 		
 		// update the div

@@ -292,5 +292,93 @@
     font-weight: bold;
     line-height: 18px;  
 	}
+	
+/*******other resources styles********/
 
+.plugin_section{
+    text-align:center;
+	background:#5696BC;
+	color:#fff;
+	float:left;
+	padding:10px 10px 20px 10px;
+	margin-bottom:20px;
+}
+
+.plugin_section p{
+	color:#fff !important;
+	padding: 10px;
+	word-wrap: break-word;
+    line-height: 26px !important;
+}
+
+.plugin-label{
+  margin:15px 0;
+
+}
+
+.plugin-label label{
+	font-family:cursive;
+	word-wrap: break-word;
+	font-weight:bold;
+	font-size: 40px;
+    line-height: 44px;
+	
+}
+
+.plugin_btn{
+	display: inline-block;
+	font-weight:bold;
+	font-size: 18px;
+	line-height: 26px;
+	background-color:#eeeeee;
+	text-align:center;
+	margin: 0 auto !important;
+	padding:8px 18px;
+	
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-appearance: none;
+	-webkit-border-radius: 3px;
+	border-radius:6px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.plugin_btn a{
+	text-decoration:none !important;
+}
+.smtp_option{
+	margin-top: 10px;
+	min-height: 40px;   
+	padding-bottom: 0;   
+	padding-left: 20px; 
+	padding-right: 0;"
+}
+
+.tbl_custom {
+    padding: 15px 10px !important;
+}
+
+.tbl_custom td {
+    padding-bottom:10px !important;
+}
+
+
+.tbl_custom  th{
+    padding-right:20px !important;
+	width: 180px;
+    line-height: 1.3;
+	text-align:left;
+}
+.tbl_error{
+    border: 1px solid black !important;
+    border-collapse: collapse !important;
+	 padding: 10px !important;
+}
+.tbl_error td{
+    border: 1px solid black !important;
+    border-collapse: collapse !important;
+	 padding: 10px !important;
+}
 

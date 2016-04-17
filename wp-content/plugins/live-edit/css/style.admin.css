@@ -8,7 +8,8 @@
 #adminmenuwrap,
 #wpadminbar,
 #footer,
-#wpfooter {
+#wpfooter,
+.update-nag {
 	display: none;
 }
 
@@ -89,6 +90,11 @@ body {
     line-height: 32px;
     padding: 0 12px 1px;
     text-decoration: none;
+}
+
+.form-title .spinner {
+	float: left;
+	margin-top: 7px;
 }
 
 .acf-form {

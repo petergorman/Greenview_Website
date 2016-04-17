@@ -7,301 +7,711 @@
 /* Validation Red */
 /* END Colors */
 /* Global */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000324}}
-html, html a { -webkit-font-smoothing: antialiased !important; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.004); font-size: 100%; }
+html, html a {
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.004);
+  font-size: 100%;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000334}}
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 { padding-left: 0px; padding-right: 0px; }
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000339}}
-.wrapper { width: 100%; }
+.wrapper {
+  width: 100%;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000343}}
-.container { width: 970px !important; }
+.container {
+  max-width: 1280px !important;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000347}}
-.div-table { display: table; width: 100%; }
+.div-table {
+  display: table;
+  width: 100%;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000351}}
-.div-cell { display: table-cell; vertical-align: middle; }
+.div-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000356}}
-hr { margin-top: 30px; margin-bottom: 32px; }
+hr {
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000361}}
-.spacer10 { margin-top: 10px; clear: both; }
+.spacer10 {
+  margin-top: 10px;
+  clear: both;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000366}}
-.spacer20 { margin-top: 20px; clear: both; }
+.spacer20 {
+  margin-top: 20px;
+  clear: both;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000371}}
-.spacer30 { margin-top: 30px; clear: both; }
+.spacer30 {
+  margin-top: 30px;
+  clear: both;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000376}}
-.spacer40 { margin-top: 40px; clear: both; }
+.spacer40 {
+  margin-top: 40px;
+  clear: both;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000381}}
-.spacer50 { margin-top: 50px; clear: both; }
+.spacer50 {
+  margin-top: 50px;
+  clear: both;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000386}}
-.spacer60 { margin-top: 60px; clear: both; }
+.spacer60 {
+  margin-top: 60px;
+  clear: both;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000391}}
-*.align-left { float: left; }
+*.align-left {
+  float: left;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\0000395}}
-*.align-right { float: right; }
+*.align-right {
+  float: right;
+}
 
 /* Form */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003115}}
-form .gv-form-control { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; border: none; width: 95%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003121}}
-form .gv-form-padding { padding: 20px 12px; }
+form .gv-form-control {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  width: 95%;
+}
+
+form .gv-form-padding {
+  padding: 20px 12px;
+}
 
 /* END Form */
 /* Micro ClearFix */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003129}}
-.cf:before, .cf:after { content: " "; /* 1 */ display: table; /* 2 */ }
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003135}}
-.cf:after { clear: both; }
+.cf:after {
+  clear: both;
+}
 
 /* For IE 6/7 only */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003140}}
-.cf { *zoom: 1; }
+.cf {
+  *zoom: 1;
+}
 
 /* END CF */
 /* END Global */
 /* Fonts */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003154}}
-h1 { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 3.125em; font-weight: 300; letter-spacing: -0.01875em; color: white; }
+h1 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 3.125em;
+  font-weight: 300;
+  letter-spacing: -0.01875em;
+  color: white;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003162}}
-h2 { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 2.1875em; font-weight: 400; color: #333333; }
+h2 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 2.1875em;
+  font-weight: 400;
+  color: #333333;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003169}}
-h3 { /*  Nav and Phone Number  */ font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1.125em; font-weight: 400; color: #838383; }
+h3 {
+  /*  Nav and Phone Number  */
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: 400;
+  color: #838383;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003176}}
-h4 { /*  Work Titles  */ font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1.875em; font-weight: 400; color: #333333; }
+h4 {
+  /*  Work Titles  */
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.875em;
+  font-weight: 400;
+  color: #333333;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003183}}
-p, input, select { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1em; color: #333333; line-height: 1.5em; }
+p, input, select {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #333333;
+  line-height: 1.5em;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003190}}
-a { font-family: "Open Sans", Helvetica, Arial, sans-serif; color: #f5a843; text-decoration: none; }
+a {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #f5a843;
+  text-decoration: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003196}}
-a:hover { color: #8dc858; text-decoration: none; }
+a:hover {
+  color: #8dc858;
+  text-decoration: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003201}}
-label { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 1.125em; color: #333333; }
+label {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.125em;
+  color: #333333;
+}
 
 /* END Fonts */
 /* Buttons */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003212}}
-a.gv-btn, input[type="submit"].gv-btn { height: 48px; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1.25em; font-weight: 600; color: white; padding-top: 10px; text-decoration: none; }
+a.gv-btn, input[type="submit"].gv-btn {
+  height: 48px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: white;
+  padding-top: 10px;
+  text-decoration: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003223}}
-a.gv-btn-quote, input[type="submit"].gv-btn-quote { color: white; text-shadow: 0 -1px 0 #c7760b; background-color: #f5a843; border-bottom: 2px solid #d17b0b; -webkit-transition: background linear 150ms; }
+a.gv-btn-quote, input[type="submit"].gv-btn-quote {
+  color: white;
+  text-shadow: 0 -1px 0 #c7760b;
+  background-color: #f5a843;
+  border-bottom: 2px solid #d17b0b;
+  -webkit-transition: background linear 150ms;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003231}}
-a:hover.gv-btn-quote, input[type="submit"]:hover.gv-btn-quote { color: white; text-shadow: 0 -1px 0 #af6709; background-color: #f29213; border-bottom: 2px solid #af6709; }
+a:hover.gv-btn-quote, input[type="submit"]:hover.gv-btn-quote {
+  color: white;
+  text-shadow: 0 -1px 0 #af6709;
+  background-color: #f29213;
+  border-bottom: 2px solid #af6709;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003238}}
-a.gv-btn-more { color: white; text-shadow: 0 -1px 0 #5a8c2e; background-color: #8dc858; border-bottom: 2px solid #5f9431; -webkit-transition: background linear 150ms; }
+a.gv-btn-more {
+  color: white;
+  text-shadow: 0 -1px 0 #5a8c2e;
+  background-color: #8dc858;
+  border-bottom: 2px solid #5f9431;
+  -webkit-transition: background linear 150ms;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003246}}
-a:hover.gv-btn-more { color: white; text-shadow: 0 -1px 0 #4e7928; background-color: #73b23b; border-bottom: 2px solid #4e7928; }
+a:hover.gv-btn-more {
+  color: white;
+  text-shadow: 0 -1px 0 #4e7928;
+  background-color: #73b23b;
+  border-bottom: 2px solid #4e7928;
+}
 
 /* END Buttons */
 /* ========= Header ========== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003259}}
-#nav { position: fixed; z-index: 99; top: 0; left: 0; }
+#nav {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003266}}
-header { background-color: white; height: 132px; border-bottom: 1px solid rgba(51, 51, 51, 0.1); -webkit-box-shadow: 0 3px 10px 0 rgba(51, 51, 51, 0.1); box-shadow: 0 3px 10px 0 rgba(51, 51, 51, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003274}}
-header hr { border: none; border-bottom: 12px solid #8dc858; width: 100%; margin: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003281}}
-header .gv-logo-nav { margin-top: -5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003285}}
-header img { float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003289}}
-header nav { float: left; margin-left: 32px; margin-top: 33px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003295}}
-header nav ul { list-style: none; margin: 0; padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003300}}
-header nav ul li { display: inline-block; margin-right: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003304}}
-header nav ul li a { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1.125em; font-weight: 400; color: #838383; display: block; padding: 0.3125em 0.9375em; -webkit-transition: background linear 250ms; margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003316}}
-header nav ul li a:hover { display: block; box-sizing: border-box; background-color: #f5a843; text-decoration: none; color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003325}}
-header nav ul li::last-child { margin-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003329}}
-header nav ul li.current-menu-item a { display: block; box-sizing: border-box; background-color: #8dc858; text-decoration: none; color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003341}}
-header a.gv-btn { margin-top: 12px; }
+header {
+  background-color: white;
+  height: 132px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+  -webkit-box-shadow: 0 3px 10px 0 rgba(51, 51, 51, 0.1);
+  box-shadow: 0 3px 10px 0 rgba(51, 51, 51, 0.1);
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003346}}
-.contact-number { background-color: #333333; height: 2.25em; margin-top: -12px; padding: 0.5em 0; box-sizing: border-box; text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003354}}
-.contact-number h3 { display: inline-block; color: white; font-weight: 600; margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003361}}
-.contact-number .fa { color: white; font-size: 1.25em; margin-right: 5px; }
+header hr {
+  border: none;
+  border-bottom: 12px solid #8dc858;
+  width: 100%;
+  margin: 0px;
+}
+
+header .gv-logo-nav {
+  margin-top: -5px;
+}
+
+header img {
+  float: left;
+}
+
+header nav {
+  float: left;
+  margin-left: 32px;
+  margin-top: 33px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: 400;
+  color: #838383;
+  display: block;
+  padding: 0.3125em 0.9375em;
+  -webkit-transition: background linear 250ms;
+  margin: 0;
+}
+
+header nav ul li a:hover {
+  display: block;
+  box-sizing: border-box;
+  background-color: #f5a843;
+  text-decoration: none;
+  color: white;
+}
+
+header nav ul li::last-child {
+  margin-right: 0;
+}
+
+header nav ul li.current-menu-item a {
+  display: block;
+  box-sizing: border-box;
+  background-color: #8dc858;
+  text-decoration: none;
+  color: white;
+}
+
+header a.gv-btn {
+  margin-top: 12px;
+}
+
+.contact-number {
+  background-color: #333333;
+  height: 2.25em;
+  margin-top: -12px;
+  padding: 0.5em 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.contact-number h3 {
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+}
+
+.contact-number .fa {
+  color: white;
+  font-size: 1.25em;
+  margin-right: 5px;
+}
 
 /* ========= END Header ========== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003371}}
-.top-box { width: 100%; height: 132px; }
+.top-box {
+  width: 100%;
+  height: 132px;
+}
 
 /* ========= Hero / Carousel ========== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003378}}
-.carousel { height: 400px; overflow: hidden; border-bottom: 5px solid #f5a843; }
+.carousel {
+  height: 400px;
+  overflow: hidden;
+  border-bottom: 5px solid #f5a843;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003386}}
-a.gv-carousel-control i { opacity: .50; filter: alpha(opacity=50); position: absolute; top: 45%; z-index: 5; display: inline-block; border: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003396}}
-a.gv-carousel-control img { opacity: .60; filter: alpha(opacity=60); position: absolute; width: 15px; height: 49px; position: absolute; top: 45%; z-index: 5; }
+a.gv-carousel-control i {
+  opacity: .50;
+  filter: alpha(opacity=50);
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+  display: inline-block;
+  border: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003408}}
-a.gv-carousel-control.left, a.gv-carousel-control.right { background: none; }
+a.gv-carousel-control img {
+  opacity: .60;
+  filter: alpha(opacity=60);
+  position: absolute;
+  width: 15px;
+  height: 49px;
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003412}}
-.hero-block { height: 400px; background-size: cover; background-position: center; background-repeat: no-repeat; border-bottom: 2px solid white; }
+a.gv-carousel-control.left, a.gv-carousel-control.right {
+  background: none;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003421}}
-.hero-unit { margin-left: auto; margin-right: auto; height: 400px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003426}}
-.hero-unit h1 { display: table; width: auto; margin-top: 0px; margin-bottom: 0.0625em; padding: 0.0625em 0.375em 0.1875em 0.375em; background-color: rgba(0, 0, 0, 0.2); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003435}}
-.hero-unit p, .hero-unit ul { color: white; text-shadow: 0 -1px 0 black; margin-top: 1.5625em; margin-left: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003442}}
-.hero-unit ul { margin-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003446}}
-.hero-unit ul li { font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1em; margin-bottom: 0.25em; color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003454}}
-.hero-unit a { display: inline; height: 48px; padding: 0.625em 3.4375em; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size: 1.25em; font-weight: 600; color: white; text-decoration: none; text-shadow: 0 -1px 0 #5a8c2e; background-color: #8dc858; border-bottom: 2px solid #5f9431; border-top: 1px solid rgba(255, 255, 255, 0.5); border-left: 1px solid rgba(255, 255, 255, 0.3); border-right: 1px solid rgba(255, 255, 255, 0.3); -webkit-transition: background linear 150ms; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003473}}
-.hero-unit a:hover { color: white; text-shadow: 0 -1px 0 #4e7928; background-color: #73b23b; border-bottom: 2px solid #4e7928; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003480}}
-.hero-unit img { margin-left: 10px; }
+.hero-block {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 2px solid white;
+}
+
+.hero-unit {
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+.hero-unit h1 {
+  display: table;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 0.0625em;
+  padding: 0.0625em 0.375em 0.1875em 0.375em;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-unit p, .hero-unit ul {
+  color: white;
+  text-shadow: 0 -1px 0 black;
+  margin-top: 1.5625em;
+  margin-left: 1em;
+}
+
+.hero-unit ul {
+  margin-left: 0;
+}
+
+.hero-unit ul li {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.25em;
+  color: white;
+}
+
+.hero-unit a {
+  display: inline;
+  height: 48px;
+  padding: 0.625em 3.4375em;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 #5a8c2e;
+  background-color: #8dc858;
+  border-bottom: 2px solid #5f9431;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-transition: background linear 150ms;
+}
+
+.hero-unit a:hover {
+  color: white;
+  text-shadow: 0 -1px 0 #4e7928;
+  background-color: #73b23b;
+  border-bottom: 2px solid #4e7928;
+}
+
+.hero-unit img {
+  margin-left: 10px;
+}
 
 /* ========= END Hero / Carousel ========== */
 /* ========= About Section ========== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003500}}
-.about-section-wrapper { /* background-color: #e4f1d7; 
-margin-bottom:50px;
-border-bottom:5px solid $color-6; */ }
+.about-section-wrapper {
+  /* background-color: #e4f1d7; 
+	margin-bottom:50px;
+	border-bottom:5px solid $color-6; */
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003506}}
-section.about { padding: 40px 0 55px 0; min-height: 250px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003510}}
-section.about hr { border-color: #c1e1a5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003514}}
-section.about .hr-box { position: relative; margin-top: -32px; margin-bottom: 32px; height: 8px; background-color: #c1e1a5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003519}}
-section.about h2 { color: #333333; text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003524}}
-section.about ul.images { margin-left: 0px; margin-top: 30px; padding: 0px; list-style: none; text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003531}}
-section.about ul.images li { display: inline; margin: 0 45px 0 12px; padding: 0px; text-align: justify; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003540}}
-section.about ul.images li:last-child { margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003545}}
-section.about ul { margin-left: 0px; list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003549}}
-section.about ul li { background: url(../../img/bullet.gif) no-repeat left top; padding-left: 40px; margin-bottom: 12px; min-height: 27px; }
+section.about {
+  padding: 40px 0 55px 0;
+  min-height: 250px;
+}
+
+section.about hr {
+  border-color: #c1e1a5;
+}
+
+section.about .hr-box {
+  position: relative;
+  margin-top: -32px;
+  margin-bottom: 32px;
+  height: 8px;
+  background-color: #c1e1a5;
+}
+
+section.about h2 {
+  color: #333333;
+  text-align: center;
+}
+
+section.about ul.images {
+  margin-left: 0px;
+  margin-top: 30px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+section.about ul.images li {
+  display: inline;
+  margin: 0 45px 0 12px;
+  padding: 0px;
+  text-align: justify;
+}
+
+section.about ul.images li:last-child {
+  margin: 0;
+}
+
+section.about ul {
+  margin-left: 0px;
+  list-style: none;
+}
+
+section.about ul li {
+  background: url(../../img/bullet.gif) no-repeat left top;
+  padding-left: 40px;
+  margin-bottom: 12px;
+  min-height: 27px;
+}
 
 /* ========= END About Section ========== */
 /* ========= Basix Section J Section ========== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003565}}
-.work-section-wrapper { background-color: #f6fbf1; }
+.work-section-wrapper {
+  background-color: #f6fbf1;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003569}}
-.work-section { padding: 40px 0 55px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003572}}
-.work-section h2 { color: #333333; text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003577}}
-.work-section hr { border-color: #c1e1a5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003581}}
-.work-section h4 { background-color: #333333; padding: 5px; box-sizing: border-box; text-align: center; color: white; margin-bottom: 2px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003590}}
-.work-section .hr-box { position: relative; margin-top: -32px; margin-bottom: 32px; height: 8px; background-color: #c1e1a5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003594}}
-.work-section .col-xs-5 { padding-left: 10px; padding-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003599}}
-.work-section img { margin-bottom: 5px; }
+.work-section {
+  padding: 40px 0 55px 0;
+}
+
+.work-section h2 {
+  color: #333333;
+  text-align: center;
+}
+
+.work-section hr {
+  border-color: #c1e1a5;
+}
+
+.work-section h4 {
+  background-color: #333333;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  margin-bottom: 2px;
+}
+
+.work-section .hr-box {
+  position: relative;
+  margin-top: -32px;
+  margin-bottom: 32px;
+  height: 8px;
+  background-color: #c1e1a5;
+}
+
+.work-section .col-xs-5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.work-section img {
+  margin-bottom: 5px;
+}
 
 /* ========= END Basix Section J Section ========== */
 /* ========= Quote Section ========== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003610}}
-.quote-section-wrapper { background-color: #333333; }
+.quote-section-wrapper {
+  background-color: #333333;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003614}}
-.quote-section { padding: 40px 0 55px 0; /* Contact Form 7 */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003617}}
-.quote-section h2 { color: white; text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003622}}
-.quote-section p { text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003626}}
-.quote-section p, .quote-section label { color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003630}}
-.quote-section hr.hr-div { border-color: rgba(255, 255, 255, 0.2); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003634}}
-.quote-section hr { border-color: #c1e1a5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003638}}
-.quote-section .hr-box { position: relative; margin-top: -32px; margin-bottom: 32px; height: 8px; background-color: #c1e1a5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003642}}
-.quote-section .col-xs-5 { padding-left: 10px; padding-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003647}}
-.quote-section img { margin-bottom: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003655}}
-.quote-section .wpcf7-form .quote-submit img.ajax-loader { margin-left: auto; margin-right: auto; display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003661}}
-.quote-section .wpcf7-form .wpcf7-submit { margin-top: 22px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003665}}
-.quote-section .wpcf7-form .wpcf7-validation-errors { border: none; background-color: #d17c7e; padding: 0.75em; margin: 0; color: white; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 300; text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003676}}
-.quote-section .wpcf7-form .wpcf7-not-valid-tip { color: #d17c7e; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 300; font-size: small; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003683}}
-.quote-section .wpcf7-form .wpcf7-mail-sent-ok { border: none; background-color: #838383; padding: 0.75em; margin: 0; color: white; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 300; text-align: center; }
+.quote-section {
+  padding: 40px 0 55px 0;
+  /* Contact Form 7 */
+}
+
+.quote-section h2 {
+  color: white;
+  text-align: center;
+}
+
+.quote-section p {
+  text-align: center;
+}
+
+.quote-section p, .quote-section label {
+  color: white;
+}
+
+.quote-section hr.hr-div {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.quote-section hr {
+  border-color: #c1e1a5;
+}
+
+.quote-section .hr-box {
+  position: relative;
+  margin-top: -32px;
+  margin-bottom: 32px;
+  height: 8px;
+  background-color: #c1e1a5;
+}
+
+.quote-section .col-xs-5 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.quote-section img {
+  margin-bottom: 5px;
+}
+
+.quote-section .wpcf7-form .quote-submit img.ajax-loader {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.quote-section .wpcf7-form .wpcf7-submit {
+  margin-top: 22px;
+}
+
+.quote-section .wpcf7-form .wpcf7-validation-errors {
+  border: none;
+  background-color: #D17C7E;
+  padding: 0.75em;
+  margin: 0;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.quote-section .wpcf7-form .wpcf7-not-valid-tip {
+  color: #D17C7E;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: small;
+}
+
+.quote-section .wpcf7-form .wpcf7-mail-sent-ok {
+  border: none;
+  background-color: #838383;
+  padding: 0.75em;
+  margin: 0;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
 
 /* ========= END Quote Section ========== */
 /* ========= Footer ========== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003705}}
-.footer-wrapper { border-top: 5px solid #f5a843; background-color: white; }
+.footer-wrapper {
+  border-top: 5px solid #f5a843;
+  background-color: white;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003710}}
-footer { padding: 40px 0 55px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003713}}
-footer hr { border-color: #c1e1a5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003717}}
-footer .hr-box { position: relative; margin-top: -32px; margin-bottom: 32px; height: 8px; background-color: #c1e1a5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003721}}
-footer p, footer li { font-size: 0.75em; color: #838383; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003725}}
-footer p a, footer li a { color: #838383; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003734}}
-footer ul { margin: 0px; padding: 0px; list-style: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003739}}
-footer ul li { display: inline-block; margin-right: 25px; padding: 0px; }
+footer {
+  padding: 40px 0 55px 0;
+}
+
+footer hr {
+  border-color: #c1e1a5;
+}
+
+footer .hr-box {
+  position: relative;
+  margin-top: -32px;
+  margin-bottom: 32px;
+  height: 8px;
+  background-color: #c1e1a5;
+}
+
+footer p, footer li {
+  font-size: 0.75em;
+  color: #838383;
+}
+
+footer p a, footer li a {
+  color: #838383;
+}
+
+footer ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 25px;
+  padding: 0px;
+}
 
 /* ========= END Footer ========== */
 /* ========= SubPage ========== */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003756}}
-.sub-section-wrapper { background-color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003759}}
-.sub-section-wrapper h1 { position: absolute; color: white; display: table; margin-top: 32px; width: auto; margin-bottom: 0.0625em; padding: 0.0625em 0.375em 0.1875em 0.375em; background-color: rgba(0, 0, 0, 0.2); }
+.sub-section-wrapper {
+  background-color: white;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003772}}
-.subpage-image { height: 120px; width: 100%; background-size: cover; background-position: top; background-repeat: no-repeat; background-color: white; border-bottom: 2px solid #f5a843; }
+.sub-section-wrapper h1 {
+  position: absolute;
+  color: white;
+  display: table;
+  margin-top: 32px;
+  width: auto;
+  margin-bottom: 0.0625em;
+  padding: 0.0625em 0.375em 0.1875em 0.375em;
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003784}}
-section.subpage h2 { font-size: 1.875em; color: #838383; margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003792}}
-section.subpage .full-width-image img { display: block; margin: 15px auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/GitHub\/Greenview_Website\/wp-content\/themes\/greenview_theme\/includes\/css\/styles\.scss}line{font-family:\00003798}}
-section.subpage .subpage-row { margin-top: 10px; margin-bottom: 10px; }
+.subpage-image {
+  height: 120px;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-bottom: 2px solid #f5a843;
+}
+
+section.subpage h2 {
+  font-size: 1.875em;
+  color: #838383;
+  margin-bottom: 20px;
+}
+
+section.subpage .full-width-image img {
+  display: block;
+  margin: 15px auto;
+}
+
+section.subpage .subpage-row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 /* ========= END SubPage ========== */

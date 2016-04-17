@@ -1,4 +1,10 @@
-<div class="block ui-tabs-panel deactive" id="option-ui-id-4" >
+<div id="section_themes" class = "postbox" >
+        <div class="inside">
+            <div id="setting_export_settings_file_text" class="format-settings">
+                <div class="format-setting-wrap">
+                   
+		
+	
 	<style>
 	.span6 h3{
 	font: 33px/29px "Helvetica Neue","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -27,7 +33,7 @@
 			<img src="<?php echo plugins_url('/other-snaps/spasalon.png',__FILE__);?>" alt="" style="width:100%"> 
 		</div>
 		<div class="span6" style="width:45%;margin-top: auto;margin-left:5%; font-size:15px;">
-			<h3><span style="border-bottom: 4px solid #bd362f;padding-bottom: 4px;">Spasalon</span></h3>
+			<h1><span style="border-bottom: 4px solid #bd362f;padding-bottom: 4px;">Spasalon</span></h1>
 			<p>A Beautiful and responsive theme ideal for Health and Welness Business Websites. It boasts of a Fresh Color Scheme and renders perfectly on all mobile devices
 				<br>	<!---    thickbox   --->
 				<ul style="list-style-type: disc;margin-left:5%;font-size:15px">
@@ -54,7 +60,7 @@
 	 </div>
 	<div class="row" style="margin-left:10px;background: #f7f7f7;padding-top: 70px;padding-bottom: 70px;">	
 		<div class="span6" style="width:45%;margin-top: auto;">
-			<h3><span style="border-bottom: 4px solid #0074a2;padding-bottom: 4px;">Busiprof</span></h3>
+			<h1><span style="border-bottom: 4px solid #0074a2;padding-bottom: 4px;">Busiprof</span></h1>
 			<p>A Beautiful and Fexible Responsive Businees Theme. It is ideal for creating a corporate website. It boasts of a highy functional Home Page and Widgetized Footer. Build an effective online presence with BusiProf</p>
 			<br>		<!---    thickbox   --->
 			<ul style="list-style-type: disc;margin-left:5%;font-size:15px"><li>Responsive Design </li><li>PowerFul Option Panel</li><li>Widgetized Footer</li></ul>
@@ -81,7 +87,7 @@
 			<img src="<?php echo plugins_url('/other-snaps/rambo.png',__FILE__);?>" alt="" style="width:100%"> 
 		</div>
 		<div class="span6" style="width:45%;margin-top: auto;margin-left:5%; font-size:15px;">
-			<h3><span style="border-bottom: 4px solid #bd362f;padding-bottom: 4px;">Rambo</span></h3>
+			<h1><span style="border-bottom: 4px solid #bd362f;padding-bottom: 4px;">Rambo</span></h1>
 			<p>Rambo is a beautiful Red Colored Responsive Multi-Purpose Wordpress Theme. It is ideal for creating a corporate website. Build an effective online presence with Rambo.
 				<br><!---    thickbox   --->
 				<ul style="list-style-type: disc;margin-left:5%;font-size:15px"><li>Responsive Design </li><li>PowerFul Option Panel</li><li>Widgetized Footer</li></ul>
@@ -101,7 +107,7 @@
 	 </div>
 	 <div class="row" style="margin-left:10px;background: #f7f7f7;padding-top: 70px;padding-bottom: 70px;">	
 		<div class="span6" style="width:45%;margin-top: auto;">
-			<h3><span style="border-bottom: 4px solid #0074a2;padding-bottom: 4px;">Health Center</span></h3>
+			<h1><span style="border-bottom: 4px solid #0074a2;padding-bottom: 4px;">Health Center</span></h1>
 			<p>Health Centre is a Full Responsive Multi-Purpose Theme suitable for Hospitals , Clinics and Medical Websites and Blogs. It boasts of a highy functional Home Page and Widgetized Footer Area. Build an effective online presence with HealthCentre</p>
 			<br>		<!---    thickbox   --->
 			<ul style="list-style-type: disc;margin-left:5%;font-size:15px"><li>Responsive Design </li><li>PowerFul Option Panel</li><li>Widgetized Footer</li></ul>
@@ -123,4 +129,17 @@
 			<img src="<?php echo plugins_url('/other-snaps/health-center.png',__FILE__);?>" alt="" style="width:100%"> 
 		</div>
 	 </div>
- </div>
+ 
+		
+		
+					
+				</div>
+            </div>
+        </div>
+    </div>
+
+<!-------------------------->
+
+
+
+	

@@ -26,8 +26,9 @@
   		interval: 1000,
 	})
 </script>
-
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo('template_directory');?>/includes/js/jquery-1.12.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="<?php bloginfo('template_directory');?>/includes/js/scroller.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>

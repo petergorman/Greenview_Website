@@ -25,7 +25,7 @@ class live_edit {
 			
 			// basic
 			'name'			=> __('Live Edit', 'live-edit'),
-			'version'		=> '2.1.0',
+			'version'		=> '2.1.4',
 						
 			// urls
 			'basename'		=> plugin_basename( __FILE__ ),
@@ -178,10 +178,11 @@ class live_edit {
 	function panel_view() {
 		
 		// vars
-		$options = acf_parse_args($_GET, array(
+		$options = wp_parse_args($_GET, array(
 			'fields'	=> '',
 			'post_id'	=> 0,
-			'updated'	=> 0
+			'updated'	=> 0,
+			'nonce'		=> '',
 		));
 		
 		
@@ -199,6 +200,13 @@ class live_edit {
 		}
 		
 		
+		if( !wp_verify_nonce($options['nonce'], 'live_edit_nonce') ) {
+		
+			wp_die( "Error: Access Denied" );
+			
+		}
+		
+		
 		// loop through and load all fields as objects
 		$fields = explode(',', $options['fields']);
 		
@@ -209,7 +217,7 @@ class live_edit {
 			'post_title'			=> in_array('post_title', $fields),
 			'post_content'			=> in_array('post_content', $fields),
 			'post_excerpt'			=> in_array('post_excerpt', $fields),
-			'html_before_fields'	=> '<div class="form-title"><h2>' . __('Live Edit', 'live-edit') . '</h2><ul class="acf-hl"><li><a href="#" class="button button-close">' . __('Close Panel', 'live-edit') . '</a></li><li><input type="submit" value="' . __('Update', 'live-edit') . '" class="button button-primary"></li></ul></div>',
+			'html_before_fields'	=> '<div class="form-title"><h2>' . __('Live Edit', 'live-edit') . '</h2><ul class="acf-hl"><li><a href="#" class="button button-close">' . __('Close Panel', 'live-edit') . '</a></li><li><span class="spinner"></span><input type="submit" value="' . __('Update', 'live-edit') . '" class="button button-primary"></li></ul></div>',
 			'html_after_fields'		=> '<p class="credits">' . __('Powered by', 'live-edit') . ' <a href="http://wordpress.org/plugins/live-edit/" target="_blank">' . __('Live Edit', 'live-edit') . '</a></p>'
 		);
 		
@@ -230,8 +238,8 @@ class live_edit {
 			(function($){
 			
 			
-			// does parent exist?
-			if( !parent ) {
+			// validate parent
+			if( !parent || !parent.live_edit ) {
 			
 				return;
 				
@@ -299,7 +307,8 @@ class live_edit {
 		$o = array(
 			'ajaxurl'		=> admin_url( 'admin-ajax.php' ),
 			'panel_url'		=> admin_url( 'options-general.php?page=live-edit-panel' ),
-			'panel_width'	=> $this->settings['panel_width']
+			'panel_width'	=> $this->settings['panel_width'],
+			'nonce'			=> wp_create_nonce('live_edit_nonce')
 		);
 		
 		
@@ -336,19 +345,26 @@ class live_edit {
 	function ajax_update_width() {
 		
 		// vars
-		$options = array(
-			'live_edit_panel_width' => 600
-		);
+		$options = wp_parse_args($_POST, array(
+			'width' 	=> 600,
+			'nonce'		=> '',
+		));
+				
 		
-		$options = array_merge($options, $_POST);
+		// validate
+		if( ! wp_verify_nonce($options['nonce'], 'live_edit_nonce') ) {
+		
+			wp_send_json_error();
+			
+		}
 		
 		
 		// update option
-		update_option( 'live_edit_panel_width', $options['panel_width'] );
+		update_option( 'live_edit_panel_width', $options['width'] );
 		
 		
-		echo "1";
-		die;
+		// success
+		wp_send_json_success();
 	}
 	
 }

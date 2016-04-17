@@ -35,7 +35,8 @@ var live_edit;
 					
 					var data = {
 						action	: 'live_edit_update_width',
-						panel_width	: $('#live-edit-panel').width()
+						width	: $('#live-edit-panel').width(),
+						nonce	: _this.o.nonce
 					};
 			
 					
@@ -73,15 +74,16 @@ var live_edit;
 		add_buttons : function(){
 			
 			$('[data-live-edit-id]').each(function(){
-				
+			
 				//vars
 				var $el = $(this);
 				
 				
 				// ignore if already setup
-				if( $el.hasClass('live-edit-area') )
-				{
+				if( $el.hasClass('live-edit-area') ) {
+				
 					return;
+					
 				}
 				
 				
@@ -118,7 +120,7 @@ var live_edit;
 			
 			
 			// update iframe
-			$('#live-edit-iframe').attr('src', this.o.panel_url + '&fields=' + fields + '&post_id=' + post_id);
+			$('#live-edit-iframe').attr('src', this.o.panel_url + '&fields=' + fields + '&post_id=' + post_id + '&nonce=' + this.o.nonce);
 			
 		},
 		
@@ -214,9 +216,9 @@ var live_edit;
 			// load
 			$loader.load( window.location + ' [data-live-edit-id="' + this.$el.attr('data-live-edit-id') + '"]', function(){
 				
+				_this.$el.removeClass('live-edit-area');
 				
-				_this.$el.replaceWith( $loader.html() );
-				
+				_this.$el.html( $loader.children().html() );
 				
 				_this.add_buttons();
 				
